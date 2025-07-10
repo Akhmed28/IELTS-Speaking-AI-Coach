@@ -1,0 +1,483 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		526040482E1C36D5002646EB /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526040452E1C36D5002646EB /* AudioPlayerService.swift */; };
+		526040492E1C36D5002646EB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526040462E1C36D5002646EB /* SafariView.swift */; };
+		5260404A2E1C36D5002646EB /* VoiceChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526040472E1C36D5002646EB /* VoiceChoice.swift */; };
+		52DF3FA72E1D2D3600423FB4 /* LoginView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 52DF3FA62E1D2D2E00423FB4 /* LoginView.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		52603FC22E1C35FC002646EB /* IELTS Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IELTS Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		526040452E1C36D5002646EB /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
+		526040462E1C36D5002646EB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
+		526040472E1C36D5002646EB /* VoiceChoice.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceChoice.swift; sourceTree = "<group>"; };
+		52DF3FA62E1D2D2E00423FB4 /* LoginView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LoginView.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFileSystemSynchronizedBuildFileExceptionSet section */
+		526040CB2E1C426D002646EB /* Exceptions for "Application" folder in "aha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ContentView.swift,
+				IELTSPracticeAIApp.swift,
+				SideBarView.swift,
+			);
+			target = 52603FC12E1C35FC002646EB /* aha */;
+		};
+		526040CC2E1C426D002646EB /* Exceptions for "Components" folder in "aha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				AudioWaveView.swift,
+				CountdownTimerView.swift,
+				CueCardView.swift,
+				PasswordRequirementsView.swift,
+			);
+			target = 52603FC12E1C35FC002646EB /* aha */;
+		};
+		526040CD2E1C426D002646EB /* Exceptions for "Features" folder in "aha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Authentication/View/AuthenticationView.swift,
+				Authentication/View/ForgotPasswordView.swift,
+				Authentication/View/ResetPasswordView.swift,
+				Authentication/View/VerificationView.swift,
+				History/View/HistoryDetailView.swift,
+				History/View/HistoryView.swift,
+				Onboarding/View/OnboardingView.swift,
+				Onboarding/View/SplashView.swift,
+				Profile/View/PhotoCropView.swift,
+				Profile/View/ProfileView.swift,
+				SpeakingPractice/Models/ChatMessage.swift,
+				SpeakingPractice/Models/IELTSTest.swift,
+				SpeakingPractice/View/ChatMessageView.swift,
+				SpeakingPractice/View/ConversationFeedView.swift,
+				SpeakingPractice/View/InputBarView.swift,
+				SpeakingPractice/View/SpeakingPracticeView.swift,
+				SpeakingPractice/ViewModel/SpeakingPracticeViewModel.swift,
+			);
+			target = 52603FC12E1C35FC002646EB /* aha */;
+		};
+		526040CE2E1C426D002646EB /* Exceptions for "Legacy" folder in "aha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				ChatView.swift,
+				TaskItem.swift,
+				TaskListViewModel.swift,
+			);
+			target = 52603FC12E1C35FC002646EB /* aha */;
+		};
+		526040CF2E1C426D002646EB /* Exceptions for "Resources" folder in "aha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				IELTSTests.json,
+			);
+			target = 52603FC12E1C35FC002646EB /* aha */;
+		};
+		52DF3F312E1D185B00423FB4 /* Exceptions for "aha" folder in "aha" target */ = {
+			isa = PBXFileSystemSynchronizedBuildFileExceptionSet;
+			membershipExceptions = (
+				Info.plist,
+			);
+			target = 52603FC12E1C35FC002646EB /* aha */;
+		};
+/* End PBXFileSystemSynchronizedBuildFileExceptionSet section */
+
+/* Begin PBXFileSystemSynchronizedRootGroup section */
+		52603FC42E1C35FC002646EB /* aha */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				52DF3F312E1D185B00423FB4 /* Exceptions for "aha" folder in "aha" target */,
+			);
+			path = aha;
+			sourceTree = "<group>";
+		};
+		526040682E1C426D002646EB /* Application */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				526040CB2E1C426D002646EB /* Exceptions for "Application" folder in "aha" target */,
+			);
+			path = Application;
+			sourceTree = "<group>";
+		};
+		5260406D2E1C426D002646EB /* Components */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				526040CC2E1C426D002646EB /* Exceptions for "Components" folder in "aha" target */,
+			);
+			path = Components;
+			sourceTree = "<group>";
+		};
+		5260407E2E1C426D002646EB /* Core */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			path = Core;
+			sourceTree = "<group>";
+		};
+		5260409C2E1C426D002646EB /* Features */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				526040CD2E1C426D002646EB /* Exceptions for "Features" folder in "aha" target */,
+			);
+			path = Features;
+			sourceTree = "<group>";
+		};
+		526040A02E1C426D002646EB /* Legacy */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				526040CE2E1C426D002646EB /* Exceptions for "Legacy" folder in "aha" target */,
+			);
+			path = Legacy;
+			sourceTree = "<group>";
+		};
+		526040A32E1C426D002646EB /* Resources */ = {
+			isa = PBXFileSystemSynchronizedRootGroup;
+			exceptions = (
+				526040CF2E1C426D002646EB /* Exceptions for "Resources" folder in "aha" target */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+/* End PBXFileSystemSynchronizedRootGroup section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		52603FBF2E1C35FC002646EB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		52603FB92E1C35FB002646EB = {
+			isa = PBXGroup;
+			children = (
+				52DF3FA62E1D2D2E00423FB4 /* LoginView.swift */,
+				52603FC42E1C35FC002646EB /* aha */,
+				526040682E1C426D002646EB /* Application */,
+				5260406D2E1C426D002646EB /* Components */,
+				5260407E2E1C426D002646EB /* Core */,
+				5260409C2E1C426D002646EB /* Features */,
+				526040A02E1C426D002646EB /* Legacy */,
+				526040A32E1C426D002646EB /* Resources */,
+				526040452E1C36D5002646EB /* AudioPlayerService.swift */,
+				526040462E1C36D5002646EB /* SafariView.swift */,
+				526040472E1C36D5002646EB /* VoiceChoice.swift */,
+				52603FC32E1C35FC002646EB /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		52603FC32E1C35FC002646EB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				52603FC22E1C35FC002646EB /* IELTS Coach.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		52603FC12E1C35FC002646EB /* aha */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 52603FD02E1C35FE002646EB /* Build configuration list for PBXNativeTarget "aha" */;
+			buildPhases = (
+				52603FBE2E1C35FC002646EB /* Sources */,
+				52603FBF2E1C35FC002646EB /* Frameworks */,
+				52603FC02E1C35FC002646EB /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			fileSystemSynchronizedGroups = (
+				52603FC42E1C35FC002646EB /* aha */,
+				5260407E2E1C426D002646EB /* Core */,
+			);
+			name = aha;
+			packageProductDependencies = (
+			);
+			productName = aha;
+			productReference = 52603FC22E1C35FC002646EB /* IELTS Coach.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		52603FBA2E1C35FC002646EB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					52603FC12E1C35FC002646EB = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = 52603FBD2E1C35FC002646EB /* Build configuration list for PBXProject "aha" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 52603FB92E1C35FB002646EB;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = 52603FC32E1C35FC002646EB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				52603FC12E1C35FC002646EB /* aha */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		52603FC02E1C35FC002646EB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		52603FBE2E1C35FC002646EB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				526040482E1C36D5002646EB /* AudioPlayerService.swift in Sources */,
+				526040492E1C36D5002646EB /* SafariView.swift in Sources */,
+				52DF3FA72E1D2D3600423FB4 /* LoginView.swift in Sources */,
+				5260404A2E1C36D5002646EB /* VoiceChoice.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		52603FCE2E1C35FE002646EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		52603FCF2E1C35FE002646EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 18.2;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		52603FD12E1C35FE002646EB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aha/aha.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"aha/Preview Content\"";
+				DEVELOPMENT_TEAM = DJDVY4P58A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aha/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Akhmed.IELTS;
+				PRODUCT_NAME = "IELTS Coach";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Debug;
+		};
+		52603FD22E1C35FE002646EB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_ENTITLEMENTS = aha/aha.entitlements;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 5;
+				DEVELOPMENT_ASSET_PATHS = "\"aha/Preview Content\"";
+				DEVELOPMENT_TEAM = DJDVY4P58A;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = aha/Info.plist;
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPhone = "UIInterfaceOrientationPortrait UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = Akhmed.IELTS;
+				PRODUCT_NAME = "IELTS Coach";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SUPPORTS_XR_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		52603FBD2E1C35FC002646EB /* Build configuration list for PBXProject "aha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52603FCE2E1C35FE002646EB /* Debug */,
+				52603FCF2E1C35FE002646EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		52603FD02E1C35FE002646EB /* Build configuration list for PBXNativeTarget "aha" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				52603FD12E1C35FE002646EB /* Debug */,
+				52603FD22E1C35FE002646EB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 52603FBA2E1C35FC002646EB /* Project object */;
+}

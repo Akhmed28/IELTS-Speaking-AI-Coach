@@ -1,0 +1,16 @@
+# Python
+__pycache__/
+*.pyc
+.env
+/venv/
+/.env
+
+# Database
+/test.db
+
+# Sensitive config
+/smtp_settings.json
+
+# IDE settings
+.idea/
+.vscode/

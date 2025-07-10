@@ -1,0 +1,397 @@
+INFO:     Will watch for changes in these directories: ['/Users/akhmedkudaibergen/Desktop/ielts-backend']
+INFO:     Uvicorn running on http://0.0.0.0:8000 (Press CTRL+C to quit)
+INFO:     Started reloader process [35735] using WatchFiles
+INFO:     Started server process [35742]
+INFO:     Waiting for application startup.
+2025-07-03 23:38:32,683 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:38:32,683 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("users")
+2025-07-03 23:38:32,683 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-07-03 23:38:32,684 INFO sqlalchemy.engine.Engine PRAGMA main.table_info("conversations")
+2025-07-03 23:38:32,684 INFO sqlalchemy.engine.Engine [raw sql] ()
+2025-07-03 23:38:32,684 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     Application startup complete.
+2025-07-03 23:39:03,276 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:39:03,289 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:39:03,289 INFO sqlalchemy.engine.Engine [generated in 0.00023s] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:39:03,549 INFO sqlalchemy.engine.Engine INSERT INTO users (email, hashed_password, name, is_verified, verification_code, code_expires_at) VALUES (?, ?, ?, ?, ?, ?) RETURNING id, created_at
+2025-07-03 23:39:03,549 INFO sqlalchemy.engine.Engine [generated in 0.00020s] ('ahmedkudaj@gmail.com', '$2b$12$lbmV2SpomiN.o7.Z.uR4V.0o4ud82KSjSu3XxW2Q1BUb9Lv9wjJce', 'Test User', 0, '360018', '2025-07-03 18:54:03.547973')
+2025-07-03 23:39:03,551 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:39:03,553 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:39:03,553 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:39:03,553 INFO sqlalchemy.engine.Engine [generated in 0.00008s] (1,)
+2025-07-03 23:39:03,554 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:62165 - "POST /register HTTP/1.1" 201 Created
+2025-07-03 23:40:12,774 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:40:12,778 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ? AND users.verification_code = ? AND users.code_expires_at > ?
+2025-07-03 23:40:12,778 INFO sqlalchemy.engine.Engine [generated in 0.00050s] ('ahmedkudaj@gmail.com', '360018', '2025-07-03 18:40:12.763662')
+2025-07-03 23:40:12,785 INFO sqlalchemy.engine.Engine UPDATE users SET is_verified=?, verification_code=?, code_expires_at=? WHERE users.id = ?
+2025-07-03 23:40:12,785 INFO sqlalchemy.engine.Engine [generated in 0.00015s] (1, None, None, 1)
+2025-07-03 23:40:12,786 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:40:12,789 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:40:12,789 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:40:12,789 INFO sqlalchemy.engine.Engine [cached since 69.24s ago] (1,)
+2025-07-03 23:40:12,819 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:62238 - "POST /verify HTTP/1.1" 200 OK
+2025-07-03 23:40:46,094 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:40:46,096 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:40:46,096 INFO sqlalchemy.engine.Engine [cached since 102.8s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:40:46,340 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     127.0.0.1:62255 - "POST /token HTTP/1.1" 200 OK
+2025-07-03 23:42:15,592 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:42:15,594 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:42:15,594 INFO sqlalchemy.engine.Engine [cached since 192.3s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:42:15,597 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49539 - "POST /token HTTP/1.1" 404 Not Found
+2025-07-03 23:42:43,167 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:42:43,168 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:42:43,168 INFO sqlalchemy.engine.Engine [cached since 219.9s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:42:43,439 INFO sqlalchemy.engine.Engine INSERT INTO users (email, hashed_password, name, is_verified, verification_code, code_expires_at) VALUES (?, ?, ?, ?, ?, ?) RETURNING id, created_at
+2025-07-03 23:42:43,439 INFO sqlalchemy.engine.Engine [cached since 219.9s ago] ('ooiittmr@gmail.com', '$2b$12$zqG0DfwcrVjXNJS4aojbIeLoC87PlJznCHLH5le1hbyppmX5aEAb2', '11 42 pm', 0, '225927', '2025-07-03 18:57:43.438389')
+2025-07-03 23:42:43,441 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:42:43,443 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:42:43,444 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:42:43,444 INFO sqlalchemy.engine.Engine [cached since 219.9s ago] (2,)
+2025-07-03 23:42:43,445 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49541 - "POST /register HTTP/1.1" 201 Created
+2025-07-03 23:43:09,211 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:43:09,215 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ? AND users.verification_code = ? AND users.code_expires_at > ?
+2025-07-03 23:43:09,216 INFO sqlalchemy.engine.Engine [cached since 176.4s ago] ('ooiittmr@gmail.com', '225927', '2025-07-03 18:43:09.201005')
+2025-07-03 23:43:09,220 INFO sqlalchemy.engine.Engine UPDATE users SET is_verified=?, verification_code=?, code_expires_at=? WHERE users.id = ?
+2025-07-03 23:43:09,220 INFO sqlalchemy.engine.Engine [cached since 176.4s ago] (1, None, None, 2)
+2025-07-03 23:43:09,221 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:43:09,223 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:43:09,223 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:43:09,223 INFO sqlalchemy.engine.Engine [cached since 245.7s ago] (2,)
+2025-07-03 23:43:09,236 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49544 - "POST /verify HTTP/1.1" 200 OK
+2025-07-03 23:43:09,282 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:43:09,283 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:43:09,283 INFO sqlalchemy.engine.Engine [cached since 246s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:43:09,288 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49544 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:43:09,708 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:43:09,709 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:43:09,709 INFO sqlalchemy.engine.Engine [cached since 246.4s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:43:09,713 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:43:09,713 INFO sqlalchemy.engine.Engine [generated in 0.00008s] (2,)
+2025-07-03 23:43:09,713 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49544 - "GET /conversations HTTP/1.1" 200 OK
+2025-07-03 23:43:59,434 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:43:59,435 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:43:59,436 INFO sqlalchemy.engine.Engine [cached since 296.2s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:43:59,698 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49548 - "POST /token HTTP/1.1" 401 Unauthorized
+2025-07-03 23:44:06,860 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:44:06,861 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:44:06,862 INFO sqlalchemy.engine.Engine [cached since 303.6s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:44:07,133 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49549 - "POST /token HTTP/1.1" 401 Unauthorized
+2025-07-03 23:44:10,572 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:44:10,573 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:44:10,573 INFO sqlalchemy.engine.Engine [cached since 307.3s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:44:10,843 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49549 - "POST /token HTTP/1.1" 200 OK
+2025-07-03 23:44:10,969 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:44:10,969 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:44:10,969 INFO sqlalchemy.engine.Engine [cached since 307.7s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:44:10,970 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49549 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:44:11,071 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:44:11,071 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:44:11,071 INFO sqlalchemy.engine.Engine [cached since 307.8s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:44:11,073 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:44:11,073 INFO sqlalchemy.engine.Engine [cached since 61.36s ago] (2,)
+2025-07-03 23:44:11,074 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49549 - "GET /conversations HTTP/1.1" 200 OK
+2025-07-03 23:44:52,518 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:44:52,519 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:44:52,520 INFO sqlalchemy.engine.Engine [cached since 349.2s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:44:52,522 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49551 - "POST /register HTTP/1.1" 409 Conflict
+2025-07-03 23:45:16,194 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:45:16,195 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:45:16,195 INFO sqlalchemy.engine.Engine [cached since 372.9s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:45:16,463 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49552 - "POST /token HTTP/1.1" 200 OK
+2025-07-03 23:45:16,504 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:45:16,504 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:45:16,504 INFO sqlalchemy.engine.Engine [cached since 373.2s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:45:16,505 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49552 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:45:16,611 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:45:16,611 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:45:16,611 INFO sqlalchemy.engine.Engine [cached since 373.3s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:45:16,612 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:45:16,612 INFO sqlalchemy.engine.Engine [cached since 126.9s ago] (1,)
+2025-07-03 23:45:16,613 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49552 - "GET /conversations HTTP/1.1" 200 OK
+2025-07-03 23:45:33,056 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:45:33,056 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:45:33,057 INFO sqlalchemy.engine.Engine [cached since 389.8s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:45:33,069 INFO sqlalchemy.engine.Engine SELECT conversations.id AS conversations_id, conversations.user_id AS conversations_user_id, conversations.conversation_data AS conversations_conversation_data, conversations.created_at AS conversations_created_at 
+FROM conversations 
+WHERE ? = conversations.user_id
+2025-07-03 23:45:33,069 INFO sqlalchemy.engine.Engine [generated in 0.00036s] (1,)
+2025-07-03 23:45:33,071 INFO sqlalchemy.engine.Engine DELETE FROM users WHERE users.id = ?
+2025-07-03 23:45:33,071 INFO sqlalchemy.engine.Engine [generated in 0.00013s] (1,)
+2025-07-03 23:45:33,072 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     10.194.61.162:49553 - "DELETE /users/me HTTP/1.1" 200 OK
+2025-07-03 23:46:06,051 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:46:06,054 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:46:06,054 INFO sqlalchemy.engine.Engine [cached since 422.8s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:46:06,319 INFO sqlalchemy.engine.Engine INSERT INTO users (email, hashed_password, name, is_verified, verification_code, code_expires_at) VALUES (?, ?, ?, ?, ?, ?) RETURNING id, created_at
+2025-07-03 23:46:06,319 INFO sqlalchemy.engine.Engine [cached since 422.8s ago] ('ahmedkudaj@gmail.com', '$2b$12$4ZXRmUGaheFNnIk7WBMS3uB3LV72OXocGcCAEHETIWZKxGtt2ulD2', '11 45pm', 0, '139098', '2025-07-03 19:01:06.318970')
+2025-07-03 23:46:06,322 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:46:06,325 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:46:06,325 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:46:06,325 INFO sqlalchemy.engine.Engine [cached since 422.8s ago] (3,)
+2025-07-03 23:46:06,325 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49557 - "POST /register HTTP/1.1" 201 Created
+🔄 Resending verification code for email: ahmedkudaj@gmail.com
+2025-07-03 23:47:08,290 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:47:08,292 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:47:08,293 INFO sqlalchemy.engine.Engine [cached since 485s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:47:08,300 INFO sqlalchemy.engine.Engine UPDATE users SET verification_code=?, code_expires_at=? WHERE users.id = ?
+2025-07-03 23:47:08,301 INFO sqlalchemy.engine.Engine [generated in 0.00027s] ('521280', '2025-07-03 19:02:08.298142', 3)
+2025-07-03 23:47:08,302 INFO sqlalchemy.engine.Engine COMMIT
+✅ Database updated with new code
+✅ Verification email task queued
+INFO:     10.194.61.162:49559 - "POST /resend-verification HTTP/1.1" 200 OK
+2025-07-03 23:47:27,147 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:47:27,149 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ? AND users.verification_code = ? AND users.code_expires_at > ?
+2025-07-03 23:47:27,150 INFO sqlalchemy.engine.Engine [cached since 434.4s ago] ('ahmedkudaj@gmail.com', '139098', '2025-07-03 18:47:27.136286')
+2025-07-03 23:47:27,152 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49564 - "POST /verify HTTP/1.1" 400 Bad Request
+2025-07-03 23:47:36,606 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:47:36,609 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ? AND users.verification_code = ? AND users.code_expires_at > ?
+2025-07-03 23:47:36,609 INFO sqlalchemy.engine.Engine [cached since 443.9s ago] ('ahmedkudaj@gmail.com', '521280', '2025-07-03 18:47:36.596458')
+2025-07-03 23:47:36,614 INFO sqlalchemy.engine.Engine UPDATE users SET is_verified=?, verification_code=?, code_expires_at=? WHERE users.id = ?
+2025-07-03 23:47:36,614 INFO sqlalchemy.engine.Engine [cached since 443.8s ago] (1, None, None, 3)
+2025-07-03 23:47:36,615 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:47:36,617 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:47:36,617 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:47:36,618 INFO sqlalchemy.engine.Engine [cached since 513.1s ago] (3,)
+2025-07-03 23:47:36,629 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49565 - "POST /verify HTTP/1.1" 200 OK
+2025-07-03 23:47:36,661 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:47:36,661 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:47:36,661 INFO sqlalchemy.engine.Engine [cached since 513.4s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:47:36,664 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49565 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:47:36,768 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:47:36,768 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:47:36,768 INFO sqlalchemy.engine.Engine [cached since 513.5s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:47:36,769 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:47:36,769 INFO sqlalchemy.engine.Engine [cached since 267.1s ago] (3,)
+2025-07-03 23:47:36,770 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49565 - "GET /conversations HTTP/1.1" 200 OK
+2025-07-03 23:48:47,812 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:48:47,814 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:48:47,814 INFO sqlalchemy.engine.Engine [cached since 584.6s ago] ('ahmedkudaj@gmail.com',)
+Error getting AI feedback: 404 models/gemini-pro is not found for API version v1beta, or is not supported for generateContent. Call ListModels to see the list of available models and their supported methods.
+2025-07-03 23:48:48,828 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49568 - "POST /practice/final-feedback HTTP/1.1" 200 OK
+2025-07-03 23:51:21,087 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:51:21,089 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:51:21,089 INFO sqlalchemy.engine.Engine [cached since 737.8s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:51:21,609 INFO sqlalchemy.engine.Engine UPDATE users SET hashed_password=? WHERE users.id = ?
+2025-07-03 23:51:21,609 INFO sqlalchemy.engine.Engine [generated in 0.00017s] ('$2b$12$7kHZRG7DLmNsA.DsuqBHl.vZh0.lh/oPct20cFYmhnJLdg74T19yC', 3)
+2025-07-03 23:51:21,610 INFO sqlalchemy.engine.Engine COMMIT
+INFO:     10.194.61.162:49581 - "PUT /users/me/password HTTP/1.1" 200 OK
+2025-07-03 23:53:16,097 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:16,099 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:16,100 INFO sqlalchemy.engine.Engine [cached since 852.9s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:53:16,354 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49594 - "POST /token HTTP/1.1" 401 Unauthorized
+2025-07-03 23:53:26,929 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:26,930 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:26,930 INFO sqlalchemy.engine.Engine [cached since 863.7s ago] ('ooiittmr@gmail.com',)
+2025-07-03 23:53:27,201 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49595 - "POST /token HTTP/1.1" 401 Unauthorized
+2025-07-03 23:53:39,329 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:39,330 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:39,330 INFO sqlalchemy.engine.Engine [cached since 876.1s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:53:39,593 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49596 - "POST /token HTTP/1.1" 401 Unauthorized
+2025-07-03 23:53:48,502 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:48,503 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:48,503 INFO sqlalchemy.engine.Engine [cached since 885.3s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:53:48,775 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49597 - "POST /token HTTP/1.1" 200 OK
+2025-07-03 23:53:49,031 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:49,031 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:49,031 INFO sqlalchemy.engine.Engine [cached since 885.8s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:53:49,038 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49597 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:53:49,375 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:49,375 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:49,375 INFO sqlalchemy.engine.Engine [cached since 886.1s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:53:49,382 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49597 - "POST /conversations HTTP/1.1" 422 Unprocessable Entity
+2025-07-03 23:53:49,398 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:53:49,398 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:53:49,398 INFO sqlalchemy.engine.Engine [cached since 886.2s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:53:49,399 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:53:49,399 INFO sqlalchemy.engine.Engine [cached since 639.7s ago] (3,)
+2025-07-03 23:53:49,400 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49597 - "GET /conversations HTTP/1.1" 200 OK
+2025-07-03 23:54:17,679 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:17,681 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:17,681 INFO sqlalchemy.engine.Engine [cached since 914.4s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:17,685 INFO sqlalchemy.engine.Engine UPDATE users SET name=? WHERE users.id = ?
+2025-07-03 23:54:17,685 INFO sqlalchemy.engine.Engine [generated in 0.00025s] ('11 54pm', 3)
+2025-07-03 23:54:17,687 INFO sqlalchemy.engine.Engine COMMIT
+2025-07-03 23:54:17,690 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:17,690 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.id = ?
+2025-07-03 23:54:17,690 INFO sqlalchemy.engine.Engine [cached since 914.2s ago] (3,)
+2025-07-03 23:54:17,692 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49598 - "PUT /users/me HTTP/1.1" 200 OK
+2025-07-03 23:54:20,440 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:20,440 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:20,440 INFO sqlalchemy.engine.Engine [cached since 917.2s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:20,442 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49599 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:54:20,627 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:20,627 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:20,627 INFO sqlalchemy.engine.Engine [cached since 917.4s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:20,630 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49599 - "POST /conversations HTTP/1.1" 422 Unprocessable Entity
+2025-07-03 23:54:20,784 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:20,785 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:20,785 INFO sqlalchemy.engine.Engine [cached since 917.5s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:20,787 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:54:20,787 INFO sqlalchemy.engine.Engine [cached since 671.1s ago] (3,)
+2025-07-03 23:54:20,788 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49599 - "GET /conversations HTTP/1.1" 200 OK
+2025-07-03 23:54:42,172 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:42,174 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:42,174 INFO sqlalchemy.engine.Engine [cached since 938.9s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:42,435 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49603 - "POST /token HTTP/1.1" 200 OK
+2025-07-03 23:54:42,481 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:42,482 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:42,482 INFO sqlalchemy.engine.Engine [cached since 939.2s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:42,485 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49603 - "GET /users/me HTTP/1.1" 200 OK
+2025-07-03 23:54:42,611 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:42,611 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:42,611 INFO sqlalchemy.engine.Engine [cached since 939.4s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:42,612 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49603 - "POST /conversations HTTP/1.1" 422 Unprocessable Entity
+2025-07-03 23:54:42,637 INFO sqlalchemy.engine.Engine BEGIN (implicit)
+2025-07-03 23:54:42,637 INFO sqlalchemy.engine.Engine SELECT users.id, users.email, users.hashed_password, users.name, users.created_at, users.is_verified, users.verification_code, users.code_expires_at 
+FROM users 
+WHERE users.email = ?
+2025-07-03 23:54:42,637 INFO sqlalchemy.engine.Engine [cached since 939.4s ago] ('ahmedkudaj@gmail.com',)
+2025-07-03 23:54:42,638 INFO sqlalchemy.engine.Engine SELECT conversations.id, conversations.user_id, conversations.conversation_data, conversations.created_at 
+FROM conversations 
+WHERE conversations.user_id = ? ORDER BY conversations.created_at DESC
+2025-07-03 23:54:42,639 INFO sqlalchemy.engine.Engine [cached since 693s ago] (3,)
+2025-07-03 23:54:42,639 INFO sqlalchemy.engine.Engine ROLLBACK
+INFO:     10.194.61.162:49603 - "GET /conversations HTTP/1.1" 200 OK

@@ -1,0 +1,2503 @@
+[
+  {
+    "id": "test_001",
+    "topic": "Work & Study",
+    "part1": [
+      "What is your job?",
+      "Why did you choose that job?",
+      "Do you like your job?",
+      "What responsibilities do you have at work?",
+      "What do you study?",
+      "Why did you choose that subject?",
+      "Is it a popular subject in your country?",
+      "What are the main aspects of your subject?"
+    ],
+    "part2": {
+      "topic": "Describe a job you would like to do in the future.",
+      "cues": [
+        "What the job is",
+        "What skills are required",
+        "What you would do in this job",
+        "And explain why you would like to do this job"
+      ]
+    },
+    "part3": [
+      "What are some of the most popular jobs in your country?",
+      "Do you think it's more important to have job satisfaction or a high salary?"
+    ]
+  },
+  {
+    "id": "test_002",
+    "topic": "Hometown",
+    "part1": [
+      "Where is your hometown?",
+      "Do you like your hometown?",
+      "What is the oldest place in your hometown?",
+      "What is there for a foreigner to do or see in your hometown?",
+      "How could your hometown be improved?",
+      "Has your hometown changed much since you were a child?"
+    ],
+    "part2": {
+      "topic": "Describe your hometown.",
+      "cues": [
+        "Where it is located",
+        "What it is famous for",
+        "What you like about it",
+        "And explain how it could be improved"
+      ]
+    },
+    "part3": [
+      "What are the advantages and disadvantages of living in a big city?",
+      "Why do you think many people move from rural areas to cities?"
+    ]
+  },
+  {
+    "id": "test_003",
+    "topic": "Food & Cooking",
+    "part1": [
+      "What's your favourite food?",
+      "Is there any food you dislike?",
+      "What is a common meal in your country?",
+      "Do you have a healthy diet?",
+      "What do you think of fast food?",
+      "Do you enjoy cooking?"
+    ],
+    "part2": {
+      "topic": "Describe a memorable meal you have had.",
+      "cues": [
+        "Where you had it",
+        "Who you were with",
+        "What you ate",
+        "And explain why it was memorable"
+      ]
+    },
+    "part3": [
+      "Is fast food popular in your country?",
+      "How have people's eating habits changed over the last few decades?"
+    ]
+  },
+  {
+    "id": "test_004",
+    "topic": "Music",
+    "part1": [
+      "What kind of music do you usually listen to?",
+      "When do you listen to music?",
+      "Have you ever been to a concert?",
+      "Do you think music can affect people's moods?",
+      "Do you like to sing along to your favorite songs?"
+    ],
+    "part2": {
+      "topic": "Describe a song that has a special meaning to you.",
+      "cues": [
+        "What the song is",
+        "When you first heard it",
+        "What the song is about",
+        "And explain why it is special to you"
+      ]
+    },
+    "part3": [
+      "Do you think technology has changed the way we listen to music?",
+      "Why do you think some songs are popular for a very long time?"
+    ]
+  },
+  {
+    "id": "test_005",
+    "topic": "Holidays & Travel",
+    "part1": [
+      "Do you like travelling?",
+      "What's your favourite type of holiday?",
+      "How often do you go on holiday?",
+      "What do you like to do when you're on holiday?",
+      "Where was the last place you visited on holiday?",
+      "What kind of tourist destinations do you usually prefer?"
+    ],
+    "part2": {
+      "topic": "Describe a place you have visited that you would recommend to others.",
+      "cues": [
+        "Where it is",
+        "When you visited it",
+        "What you can do there",
+        "And explain why you would recommend it"
+      ]
+    },
+    "part3": [
+      "Why do you think people travel?",
+      "What are the advantages and disadvantages of tourism?"
+    ]
+  },
+  {
+    "id": "test_006",
+    "topic": "Technology & Internet",
+    "part1": [
+      "How often do you use a computer?",
+      "What do you use computers for?",
+      "Do you use a mobile phone a lot?",
+      "How often do you use the Internet?",
+      "What is your favourite website?",
+      "Do you think it's bad to use the Internet too much?"
+    ],
+    "part2": {
+      "topic": "Describe a piece of technology you find very useful.",
+      "cues": [
+        "What it is",
+        "What you use it for",
+        "How it makes your life easier",
+        "And explain why it is so useful"
+      ]
+    },
+    "part3": [
+      "How has technology changed people's lives?",
+      "What are the pros and cons of modern technology?"
+    ]
+  },
+  {
+    "id": "test_007",
+    "topic": "Health & Fitness",
+    "part1": [
+      "Do you do any exercise?",
+      "What do you do to stay healthy?",
+      "Is a healthy diet important to you?",
+      "How much sleep do you usually get?",
+      "What part of your day is most stressful?",
+      "Do you think people in your country are generally healthy?"
+    ],
+    "part2": {
+      "topic": "Describe an activity you do to keep fit.",
+      "cues": [
+        "What the activity is",
+        "How often you do it",
+        "Where you do it",
+        "And explain why you enjoy it"
+      ]
+    },
+    "part3": [
+      "Do you think modern lifestyles are healthy?",
+      "What can governments do to promote public health?"
+    ]
+  },
+  {
+    "id": "test_008",
+    "topic": "Education",
+    "part1": [
+      "Did you enjoy your time at school?",
+      "What was your favorite subject?",
+      "Who was your favorite teacher?",
+      "Is education important in your country?",
+      "What are the qualities of a good teacher?",
+      "Do you prefer studying alone or in a group?"
+    ],
+    "part2": {
+      "topic": "Describe a subject you enjoyed studying at school.",
+      "cues": [
+        "What the subject was",
+        "Who taught you",
+        "What you learned",
+        "And explain why you enjoyed it"
+      ]
+    },
+    "part3": [
+      "What are the benefits of higher education?",
+      "Should education be free for everyone?"
+    ]
+  },
+  {
+    "id": "test_009",
+    "topic": "Friends & Family",
+    "part1": [
+      "Do you have a large or small family?",
+      "Who are you closest to in your family?",
+      "How much time do you spend with your family?",
+      "What do you like to do together as a family?",
+      "Do you have many friends?",
+      "How often do you see your friends?"
+    ],
+    "part2": {
+      "topic": "Describe a close friend.",
+      "cues": [
+        "Who this person is",
+        "How you met",
+        "What you like to do together",
+        "And explain why this person is a close friend"
+      ]
+    },
+    "part3": [
+      "How have friendships changed with social media?",
+      "Is it important to have friends from different cultures?"
+    ]
+  },
+  {
+    "id": "test_010",
+    "topic": "Movies & TV",
+    "part1": [
+      "Do you watch movies often?",
+      "What's your favorite type of movie?",
+      "Who is your favorite actor or actress?",
+      "Do you prefer watching movies at home or at the cinema?",
+      "Do you watch TV series?",
+      "What kind of TV programs are popular in your country?"
+    ],
+    "part2": {
+      "topic": "Describe your favorite movie.",
+      "cues": [
+        "What the movie is called",
+        "What it is about",
+        "When you first saw it",
+        "And explain why it is your favorite movie"
+      ]
+    },
+    "part3": [
+      "Do you think movies can have a strong influence on people?",
+      "Why do you think superhero movies are so popular?"
+    ]
+  },
+  {
+    "id": "test_011",
+    "topic": "Hobbies & Free Time",
+    "part1": [
+      "What do you do in your free time?",
+      "Do you have any hobbies?",
+      "How did you get started with your hobby?",
+      "Do you prefer to spend your free time alone or with others?",
+      "Is it important to have a hobby?",
+      "What hobbies are popular in your country?"
+    ],
+    "part2": {
+      "topic": "Describe a hobby you enjoy.",
+      "cues": [
+        "What it is",
+        "How long you have been doing it",
+        "Who you do it with",
+        "And explain why you enjoy it"
+      ]
+    },
+    "part3": [
+      "Do people have enough free time these days?",
+      "Can a hobby be a source of income?"
+    ]
+  },
+  {
+    "id": "test_012",
+    "topic": "Environment",
+    "part1": [
+      "Are you concerned about the environment?",
+      "What is the biggest environmental problem in your country?",
+      "Do you do anything to help the environment, like recycling?",
+      "Do you think enough is being done to protect the environment?",
+      "Was the environment a topic you studied at school?",
+      "What can individuals do to combat climate change?"
+    ],
+    "part2": {
+      "topic": "Describe an environmental problem that you know about.",
+      "cues": [
+        "What the problem is",
+        "What causes it",
+        "What effects it has",
+        "And explain what can be done to solve it"
+      ]
+    },
+    "part3": [
+      "Who is more responsible for protecting the environment: governments or individuals?",
+      "What is the importance of renewable energy sources?"
+    ]
+  },
+  {
+    "id": "test_013",
+    "topic": "Books & Reading",
+    "part1": [
+      "Do you like reading?",
+      "What kind of books do you enjoy?",
+      "How often do you read?",
+      "Do you prefer e-books or physical books?",
+      "What was your favorite book as a child?",
+      "Is reading a popular hobby in your country?"
+    ],
+    "part2": {
+      "topic": "Describe a book you have recently read.",
+      "cues": [
+        "What the book was about",
+        "Why you decided to read it",
+        "What you liked or disliked about it",
+        "And explain whether you would recommend it to others"
+      ]
+    },
+    "part3": [
+      "Do you think people read less now than in the past?",
+      "What is the role of libraries in the digital age?"
+    ]
+  },
+  {
+    "id": "test_014",
+    "topic": "Transportation",
+    "part1": [
+      "How do you usually travel to work or school?",
+      "What is your favorite mode of transport?",
+      "What is public transportation like in your city?",
+      "How could the public transport in your city be improved?",
+      "Do you prefer public or private transport?",
+      "What are the traffic conditions like in your city?"
+    ],
+    "part2": {
+      "topic": "Describe a journey you made that was memorable.",
+      "cues": [
+        "Where you went",
+        "How you travelled",
+        "Who you were with",
+        "And explain why the journey was memorable"
+      ]
+    },
+    "part3": [
+      "What are the advantages of using public transport?",
+      "How can cities reduce traffic congestion?"
+    ]
+  },
+  {
+    "id": "test_015",
+    "topic": "Fashion & Clothes",
+    "part1": [
+      "Do you enjoy shopping for clothes?",
+      "What kind of clothes do you usually wear?",
+      "Is fashion important to you?",
+      "Do you prefer branded or unbranded clothes?",
+      "What colors do you like to wear?",
+      "Do you ever shop for clothes online?"
+    ],
+    "part2": {
+      "topic": "Describe an item of clothing that is special to you.",
+      "cues": [
+        "What it is",
+        "Where you got it",
+        "How often you wear it",
+        "And explain why it is special"
+      ]
+    },
+    "part3": [
+      "How has fashion changed in your country over the years?",
+      "Do you think people spend too much money on fashion?"
+    ]
+  },
+  {
+    "id": "test_016",
+    "topic": "Sports",
+    "part1": [
+      "Do you play any sports?",
+      "What sports are popular in your country?",
+      "Do you prefer watching or playing sports?",
+      "Who is your favorite athlete?",
+      "Is it important for children to play sports?",
+      "What are the benefits of playing a team sport?"
+    ],
+    "part2": {
+      "topic": "Describe a sport you enjoy watching or playing.",
+      "cues": [
+        "What the sport is",
+        "How it is played",
+        "Why you like it",
+        "And explain what makes it exciting"
+      ]
+    },
+    "part3": [
+      "Should athletes be paid very high salaries?",
+      "What is the role of sports in society?"
+    ]
+  },
+  {
+    "id": "test_017",
+    "topic": "Art",
+    "part1": [
+      "Do you like art?",
+      "Have you ever visited an art gallery?",
+      "What kind of art do you enjoy?",
+      "Do you think art is an important part of culture?",
+      "Can you draw or paint?",
+      "Is street art popular in your city?"
+    ],
+    "part2": {
+      "topic": "Describe a piece of art (like a painting or sculpture) you have seen.",
+      "cues": [
+        "What it was",
+        "Where you saw it",
+        "What it looked like",
+        "And explain how you felt about it"
+      ]
+    },
+    "part3": [
+      "Should the government support artists?",
+      "What are the benefits of teaching art in schools?"
+    ]
+  },
+  {
+    "id": "test_018",
+    "topic": "History",
+    "part1": [
+      "Do you enjoy learning about history?",
+      "What historical period do you find most interesting?",
+      "Is it important to study history?",
+      "Who is a famous historical figure from your country?",
+      "Have you ever been to a museum?",
+      "Do you think history repeats itself?"
+    ],
+    "part2": {
+      "topic": "Describe a historical event you find interesting.",
+      "cues": [
+        "What the event was",
+        "When and where it happened",
+        "What happened during the event",
+        "And explain why you find it interesting"
+      ]
+    },
+    "part3": [
+      "How does learning about history help us understand the present?",
+      "Should historical sites be preserved?"
+    ]
+  },
+  {
+    "id": "test_019",
+    "topic": "Animals",
+    "part1": [
+      "Do you like animals?",
+      "Do you have any pets?",
+      "What is your favorite animal?",
+      "Are there any famous animals in your country's stories?",
+      "Is it common to have pets in your country?",
+      "What are the responsibilities of a pet owner?"
+    ],
+    "part2": {
+      "topic": "Describe a wild animal from your country.",
+      "cues": [
+        "What it is",
+        "What it looks like",
+        "Where it lives",
+        "And explain what you know about it"
+      ]
+    },
+    "part3": [
+      "Why do people keep pets?",
+      "What can be done to protect endangered animals?"
+    ]
+  },
+  {
+    "id": "test_020",
+    "topic": "Weather",
+    "part1": [
+      "What is the weather like today?",
+      "What is your favorite type of weather?",
+      "Does the weather affect your mood?",
+      "What is the weather like in your country in winter?",
+      "Do you prefer hot or cold weather?",
+      "Have you ever experienced extreme weather?"
+    ],
+    "part2": {
+      "topic": "Describe your favorite season.",
+      "cues": [
+        "What the season is",
+        "What the weather is like",
+        "What you usually do during this season",
+        "And explain why it is your favorite"
+      ]
+    },
+    "part3": [
+      "How has climate change affected the weather in your country?",
+      "In what ways can weather impact a country's economy?"
+    ]
+  },
+  {
+    "id": "test_021",
+    "topic": "Advertising",
+    "part1": [
+      "Are there many advertisements in your country?",
+      "Where do you usually see advertisements?",
+      "Do you find advertisements annoying?",
+      "What makes an advertisement effective?",
+      "Have you ever bought something because of an ad?",
+      "Do you prefer ads on TV or online?"
+    ],
+    "part2": {
+      "topic": "Describe an advertisement you remember well.",
+      "cues": [
+        "What it was for",
+        "Where you saw it",
+        "What happened in the advertisement",
+        "And explain why you remember it"
+      ]
+    },
+    "part3": [
+      "What are the pros and cons of advertising?",
+      "Should there be stricter rules for advertising, especially to children?"
+    ]
+  },
+  {
+    "id": "test_022",
+    "topic": "Buildings & Architecture",
+    "part1": [
+      "What kind of buildings are common in your city?",
+      "Do you prefer old or modern buildings?",
+      "Is there a famous building in your hometown?",
+      "What are the qualities of a well-designed building?",
+      "Do you live in a house or an apartment?",
+      "What is your ideal home like?"
+    ],
+    "part2": {
+      "topic": "Describe a building that you find interesting.",
+      "cues": [
+        "Where it is",
+        "What it looks like",
+        "What it is used for",
+        "And explain why you find it interesting"
+      ]
+    },
+    "part3": [
+      "How important is it to preserve historic buildings?",
+      "What is the relationship between architecture and culture?"
+    ]
+  },
+  {
+    "id": "test_023",
+    "topic": "Communication",
+    "part1": [
+      "How do you usually keep in touch with friends?",
+      "Do you prefer talking on the phone or texting?",
+      "Is face-to-face communication better than online communication?",
+      "What are the qualities of a good communicator?",
+      "Do you enjoy public speaking?",
+      "How has technology changed the way we communicate?"
+    ],
+    "part2": {
+      "topic": "Describe a time you had a good conversation with someone.",
+      "cues": [
+        "Who you were talking to",
+        "What you talked about",
+        "Where you were",
+        "And explain why it was a good conversation"
+      ]
+    },
+    "part3": [
+      "What are some of the barriers to effective communication?",
+      "How important is non-verbal communication, like body language?"
+    ]
+  },
+  {
+    "id": "test_024",
+    "topic": "Daily Routine",
+    "part1": [
+      "What is your typical daily routine?",
+      "What time do you usually get up?",
+      "What do you do in the mornings?",
+      "Is your weekend routine different from your weekday routine?",
+      "What is your favorite part of the day?",
+      "Do you think it's important to have a routine?"
+    ],
+    "part2": {
+      "topic": "Describe your favorite part of the day.",
+      "cues": [
+        "What part of the day it is",
+        "What you do at this time",
+        "Who you are usually with",
+        "And explain why you enjoy it so much"
+      ]
+    },
+    "part3": [
+      "How do people's routines change as they get older?",
+      "What are the benefits of having a balanced daily routine?"
+    ]
+  },
+  {
+    "id": "test_025",
+    "topic": "Gifts",
+    "part1": [
+      "How often do you give gifts to others?",
+      "Do you enjoy picking out gifts for people?",
+      "What is the best gift you have ever received?",
+      "When do people in your country usually give gifts?",
+      "Do you prefer giving or receiving gifts?",
+      "Is it better to give a handmade or a store-bought gift?"
+    ],
+    "part2": {
+      "topic": "Describe a gift you gave to someone that was special.",
+      "cues": [
+        "Who you gave it to",
+        "What the gift was",
+        "On what occasion you gave it",
+        "And explain why it was a special gift"
+      ]
+    },
+    "part3": [
+      "What is the importance of gift-giving in a culture?",
+      "Do you think the value of a gift is important?"
+    ]
+  },
+  {
+    "id": "test_026",
+    "topic": "Happiness",
+    "part1": [
+      "What makes you happy?",
+      "Do you think you are a happy person?",
+      "What do you do when you feel unhappy?",
+      "Is happiness related to money?",
+      "What is more important: happiness or success?",
+      "Can people learn to be happier?"
+    ],
+    "part2": {
+      "topic": "Describe a happy event from your childhood.",
+      "cues": [
+        "What the event was",
+        "When it happened",
+        "Who was with you",
+        "And explain why you remember it as a happy event"
+      ]
+    },
+    "part3": [
+      "How do people in your country define happiness?",
+      "Do you think people were happier in the past?"
+    ]
+  },
+  {
+    "id": "test_027",
+    "topic": "Languages",
+    "part1": [
+      "What is your native language?",
+      "Can you speak any other languages?",
+      "Why are you learning English?",
+      "What is the most difficult part of learning a new language?",
+      "Do you think it's important to learn foreign languages?",
+      "What is the best way to learn a language?"
+    ],
+    "part2": {
+      "topic": "Describe a time you found it difficult to communicate in a different language.",
+      "cues": [
+        "Where you were",
+        "Who you were trying to talk to",
+        "What the difficulty was",
+        "And explain how you solved the problem"
+      ]
+    },
+    "part3": [
+      "What are the benefits of being bilingual?",
+      "Should children start learning a foreign language at a young age?"
+    ]
+  },
+  {
+    "id": "test_028",
+    "topic": "Media & News",
+    "part1": [
+      "How do you usually get the news?",
+      "Do you prefer reading newspapers or online news?",
+      "What kind of news do you find most interesting?",
+      "Do you trust the news you see on social media?",
+      "Is it important to stay informed about current events?",
+      "Do you think the news is often too negative?"
+    ],
+    "part2": {
+      "topic": "Describe an interesting news story you have recently heard or read.",
+      "cues": [
+        "What the story was about",
+        "Where you heard/read about it",
+        "Who was involved",
+        "And explain why you found it interesting"
+      ]
+    },
+    "part3": [
+      "What is the role of journalism in society?",
+      "How has the internet changed the way people get news?"
+    ]
+  },
+  {
+    "id": "test_029",
+    "topic": "Money",
+    "part1": [
+      "Are you good at saving money?",
+      "What do you usually spend your money on?",
+      "Do you prefer using cash or credit cards?",
+      "Is it important to teach children about money?",
+      "Can money buy happiness?",
+      "What would you do if you won a lot of money?"
+    ],
+    "part2": {
+      "topic": "Describe something you bought that you were very happy with.",
+      "cues": [
+        "What it was",
+        "Where you bought it",
+        "Why you decided to buy it",
+        "And explain why you were so happy with it"
+      ]
+    },
+    "part3": [
+      "What are the advantages and disadvantages of a cashless society?",
+      "How do people's spending habits change as they age?"
+    ]
+  },
+  {
+    "id": "test_030",
+    "topic": "Neighbors",
+    "part1": [
+      "Do you know your neighbors?",
+      "How often do you see your neighbors?",
+      "What are the qualities of a good neighbor?",
+      "Have you ever had a problem with a neighbor?",
+      "Is it important to have a good relationship with neighbors?",
+      "What kind of neighborhood do you live in?"
+    ],
+    "part2": {
+      "topic": "Describe a neighbor you know well.",
+      "cues": [
+        "Who the person is",
+        "How long you have known them",
+        "What this person is like",
+        "And explain what kind of relationship you have with them"
+      ]
+    },
+    "part3": [
+      "What is the sense of community like in your country?",
+      "How has the relationship between neighbors changed over the years?"
+    ]
+  },
+  {
+    "id": "test_031",
+    "topic": "Parties & Celebrations",
+    "part1": [
+      "Do you enjoy going to parties?",
+      "What kind of parties do you like?",
+      "When was the last time you went to a party?",
+      "What are the most important celebrations in your country?",
+      "How do you usually celebrate your birthday?",
+      "Do you prefer large or small gatherings?"
+    ],
+    "part2": {
+      "topic": "Describe a party or celebration you attended and enjoyed.",
+      "cues": [
+        "What the occasion was",
+        "Where it took place",
+        "What you did there",
+        "And explain why you enjoyed it"
+      ]
+    },
+    "part3": [
+      "Why do you think celebrations are important in all cultures?",
+      "Are traditional celebrations still important in your country?"
+    ]
+  },
+  {
+    "id": "test_032",
+    "topic": "Photography",
+    "part1": [
+      "Do you like taking photographs?",
+      "What kind of photos do you usually take?",
+      "Do you prefer taking photos with a camera or a phone?",
+      "Do you post your photos on social media?",
+      "What makes a good photograph?",
+      "Do you have a favorite photo?"
+    ],
+    "part2": {
+      "topic": "Describe a photograph that is important to you.",
+      "cues": [
+        "What is in the photograph",
+        "When and where it was taken",
+        "Who took the photograph",
+        "And explain why it is important to you"
+      ]
+    },
+    "part3": [
+      "How has digital photography changed the way we take pictures?",
+      "Is it better to have physical photo albums or digital ones?"
+    ]
+  },
+  {
+    "id": "test_033",
+    "topic": "Plants & Flowers",
+    "part1": [
+      "Do you like plants?",
+      "Do you have any plants at home?",
+      "What is your favorite flower or plant?",
+      "Is it common for people to give flowers as gifts in your country?",
+      "Have you ever grown a plant yourself?",
+      "Do you enjoy visiting parks or gardens?"
+    ],
+    "part2": {
+      "topic": "Describe a plant, flower, or tree that is important in your country.",
+      "cues": [
+        "What it is",
+        "What it looks like",
+        "Where it usually grows",
+        "And explain why it is important"
+      ]
+    },
+    "part3": [
+      "What are the benefits of having plants in our homes and cities?",
+      "Why do you think gardening is a popular hobby for some people?"
+    ]
+  },
+  {
+    "id": "test_034",
+    "topic": "Politeness & Manners",
+    "part1": [
+      "Is politeness important to you?",
+      "How do people in your culture show politeness?",
+      "Who taught you about good manners?",
+      "Do you think people are less polite now than in the past?",
+      "What are some examples of bad manners?",
+      "Is it easy to be polite in all situations?"
+    ],
+    "part2": {
+      "topic": "Describe a time when someone was very polite to you.",
+      "cues": [
+        "Who the person was",
+        "Where it happened",
+        "What they did that was polite",
+        "And explain how you felt about it"
+      ]
+    },
+    "part3": [
+      "Are manners different across cultures?",
+      "How can parents teach their children to be polite?"
+    ]
+  },
+  {
+    "id": "test_035",
+    "topic": "Patience",
+    "part1": [
+      "Are you a patient person?",
+      "In what situations do you need to be patient?",
+      "Have you ever lost your patience?",
+      "Do you think patience is an important quality?",
+      "Are people in your country generally patient?",
+      "How can someone become more patient?"
+    ],
+    "part2": {
+      "topic": "Describe a time when you had to be very patient.",
+      "cues": [
+        "When and where it was",
+        "What you were waiting for",
+        "Why you had to be patient",
+        "And explain how you felt during that time"
+      ]
+    },
+    "part3": [
+      "Why is patience important in modern life?",
+      "Do you think technology has made people less patient?"
+    ]
+  },
+  {
+    "id": "test_036",
+    "topic": "Risk-Taking",
+    "part1": [
+      "Do you enjoy taking risks?",
+      "What is the biggest risk you have ever taken?",
+      "Do you think taking risks is a positive or negative trait?",
+      "What kinds of risks do people usually take in their lives?",
+      "Are your friends risk-takers?",
+      "Is it good for children to take small risks?"
+    ],
+    "part2": {
+      "topic": "Describe a risk you have taken which had a positive result.",
+      "cues": [
+        "What the risk was",
+        "Why you decided to take it",
+        "What the result was",
+        "And explain how you felt about it"
+      ]
+    },
+    "part3": [
+      "Why do some people enjoy extreme sports?",
+      "Do you think it's better to live a safe life or a life full of adventure?"
+    ]
+  },
+  {
+    "id": "test_037",
+    "topic": "Rules & Laws",
+    "part1": [
+      "Do you think rules are important?",
+      "What is a rule you had to follow at school?",
+      "Are there any rules in your family?",
+      "Is it ever okay to break a rule?",
+      "Do you think there are too many laws in society?",
+      "What is an important law in your country?"
+    ],
+    "part2": {
+      "topic": "Describe a rule at your school or workplace that you think is important.",
+      "cues": [
+        "What the rule is",
+        "What happens if you break it",
+        "Why the rule was made",
+        "And explain why you think it is important"
+      ]
+    },
+    "part3": [
+      "Why do societies need laws?",
+      "Do you think all laws are fair?"
+    ]
+  },
+  {
+    "id": "test_038",
+    "topic": "Shopping",
+    "part1": [
+      "Do you enjoy shopping?",
+      "How often do you go shopping?",
+      "What is your favorite place to shop?",
+      "Do you prefer shopping online or in physical stores?",
+      "Do you ever go window shopping?",
+      "What was the last thing you bought?"
+    ],
+    "part2": {
+      "topic": "Describe a shop or market you enjoy visiting.",
+      "cues": [
+        "Where it is",
+        "What it sells",
+        "How often you go there",
+        "And explain why you enjoy visiting it"
+      ]
+    },
+    "part3": [
+      "How has online shopping changed the way people buy things?",
+      "What are the pros and cons of large shopping malls?"
+    ]
+  },
+  {
+    "id": "test_039",
+    "topic": "Sleep",
+    "part1": [
+      "How many hours do you usually sleep per night?",
+      "Do you think you get enough sleep?",
+      "What do you do to help you fall asleep?",
+      "Do you ever take naps during the day?",
+      "Is it important to have a regular sleep schedule?",
+      "What time do you usually go to bed?"
+    ],
+    "part2": {
+      "topic": "Describe a time you didn't get enough sleep.",
+      "cues": [
+        "When it was",
+        "Why you couldn't sleep well",
+        "What you had to do the next day",
+        "And explain how you felt"
+      ]
+    },
+    "part3": [
+      "Why is sleep important for our health?",
+      "What are some common causes of sleep problems in modern society?"
+    ]
+  },
+  {
+    "id": "test_040",
+    "topic": "Social Media",
+    "part1": [
+      "Do you use social media?",
+      "Which social media platforms are you on?",
+      "How much time do you spend on social media each day?",
+      "What do you usually do on social media?",
+      "What are the good things about social media?",
+      "What are the bad things about social media?"
+    ],
+    "part2": {
+      "topic": "Describe your favorite social media app or website.",
+      "cues": [
+        "What it is",
+        "How you use it",
+        "How long you have been using it",
+        "And explain why you like it"
+      ]
+    },
+    "part3": [
+      "How has social media changed friendships and relationships?",
+      "Do you think social media has a positive or negative effect on society?"
+    ]
+  },
+  {
+    "id": "test_041",
+    "topic": "Space & Universe",
+    "part1": [
+      "Are you interested in space?",
+      "Have you ever looked at the stars through a telescope?",
+      "Do you think humans will live on other planets one day?",
+      "What do you know about our solar system?",
+      "Would you like to travel to space?",
+      "Do you believe there is life on other planets?"
+    ],
+    "part2": {
+      "topic": "Describe a movie or book about space that you have enjoyed.",
+      "cues": [
+        "What it was called",
+        "What the story was about",
+        "What you learned from it",
+        "And explain why you enjoyed it"
+      ]
+    },
+    "part3": [
+      "Why should governments spend money on space exploration?",
+      "What are the potential benefits of space exploration for humanity?"
+    ]
+  },
+  {
+    "id": "test_042",
+    "topic": "Success",
+    "part1": [
+      "What does success mean to you?",
+      "Who is a successful person you admire?",
+      "Is success more about money or happiness?",
+      "What are the key qualities for achieving success?",
+      "Do you consider yourself a successful person?",
+      "Is it important to celebrate small successes?"
+    ],
+    "part2": {
+      "topic": "Describe a success you have had in your life.",
+      "cues": [
+        "What the success was",
+        "When and where it happened",
+        "How you achieved it",
+        "And explain how you felt about this success"
+      ]
+    },
+    "part3": [
+      "How does society measure success?",
+      "Is it possible to be successful without a good education?"
+    ]
+  },
+  {
+    "id": "test_043",
+    "topic": "Talents & Skills",
+    "part1": [
+      "Do you have any special talents?",
+      "What skill would you like to learn?",
+      "Is it more important to have natural talent or to work hard?",
+      "What skills are most useful in modern life?",
+      "Do you enjoy learning new skills?",
+      "What is a skill that is difficult to learn?"
+    ],
+    "part2": {
+      "topic": "Describe a skill you would like to learn.",
+      "cues": [
+        "What the skill is",
+        "Why you want to learn it",
+        "How you would learn it",
+        "And explain how it would change your life"
+      ]
+    },
+    "part3": [
+      "What skills do you think will be important in the future?",
+      "Are practical skills more important than academic skills?"
+    ]
+  },
+  {
+    "id": "test_044",
+    "topic": "Tea & Coffee",
+    "part1": [
+      "Do you prefer tea or coffee?",
+      "How often do you drink tea or coffee?",
+      "When do you usually drink it?",
+      "Do you like to visit cafes?",
+      "Is it popular to drink tea or coffee in your country?",
+      "What is your favorite type of tea or coffee?"
+    ],
+    "part2": {
+      "topic": "Describe a cafe you like to visit.",
+      "cues": [
+        "Where it is",
+        "What it looks like inside",
+        "What you usually order there",
+        "And explain why you like to go there"
+      ]
+    },
+    "part3": [
+      "What is the role of cafes in modern culture?",
+      "Do you think coffee and tea are good for your health?"
+    ]
+  },
+  {
+    "id": "test_045",
+    "topic": "Teamwork",
+    "part1": [
+      "Do you enjoy working in a team?",
+      "What are the qualities of a good team member?",
+      "Have you ever been part of a successful team?",
+      "What are the challenges of working in a team?",
+      "Do you prefer to be a leader or a follower in a team?",
+      "Is teamwork important in your studies or job?"
+    ],
+    "part2": {
+      "topic": "Describe a time you worked successfully as part of a team.",
+      "cues": [
+        "What the project or task was",
+        "Who was on the team with you",
+        "What you did to contribute to the team",
+        "And explain why you think the team was successful"
+      ]
+    },
+    "part3": [
+      "What makes a good leader?",
+      "What are the benefits of teamwork in the workplace?"
+    ]
+  },
+  {
+    "id": "test_046",
+    "topic": "Time Management",
+    "part1": [
+      "Are you good at managing your time?",
+      "Do you use a schedule or a planner?",
+      "What is the busiest part of your day?",
+      "How do you prioritize your tasks?",
+      "Do you often feel like you don't have enough time?",
+      "What do you do when you are running late?"
+    ],
+    "part2": {
+      "topic": "Describe a time when you had to manage your time carefully.",
+      "cues": [
+        "What the situation was",
+        "What you needed to do",
+        "How you managed your time",
+        "And explain what the result was"
+      ]
+    },
+    "part3": [
+      "Why is time management an important skill?",
+      "Do you think technology helps or hinders our ability to manage time?"
+    ]
+  },
+  {
+    "id": "test_047",
+    "topic": "Traditions & Culture",
+    "part1": [
+      "What are some important traditions in your country?",
+      "Is it important to maintain traditions?",
+      "How has your country's culture changed over the last 50 years?",
+      "Do you enjoy traditional music or art from your country?",
+      "What is a traditional food from your culture?",
+      "Are young people in your country interested in traditions?"
+    ],
+    "part2": {
+      "topic": "Describe a traditional festival or celebration in your country.",
+      "cues": [
+        "What it is called",
+        "When it takes place",
+        "What people do during this festival",
+        "And explain what it means to you and your culture"
+      ]
+    },
+    "part3": [
+      "Do you think it's good for a country to have influences from other cultures?",
+      "How can we prevent traditions from disappearing?"
+    ]
+  },
+  {
+    "id": "test_048",
+    "topic": "Trees",
+    "part1": [
+      "Do you like trees?",
+      "Are there many trees near where you live?",
+      "What is your favorite type of tree?",
+      "Have you ever planted a tree?",
+      "Do you think trees are important for the environment?",
+      "What is a famous forest or park in your country?"
+    ],
+    "part2": {
+      "topic": "Describe a tree that is special to you.",
+      "cues": [
+        "Where the tree is",
+        "What it looks like",
+        "How you know about this tree",
+        "And explain why it is special to you"
+      ]
+    },
+    "part3": [
+      "What are the main reasons for deforestation?",
+      "What can be done to encourage more people to plant trees?"
+    ]
+  },
+  {
+    "id": "test_049",
+    "topic": "TV Shows",
+    "part1": [
+      "Do you watch TV shows?",
+      "What is your favorite TV show?",
+      "How do you usually watch TV shows (on TV, online, etc.)?",
+      "Do you like to binge-watch series?",
+      "What kind of TV shows are popular in your country?",
+      "Do you prefer fiction or non-fiction shows?"
+    ],
+    "part2": {
+      "topic": "Describe a TV show that you enjoy watching.",
+      "cues": [
+        "What the show is called",
+        "What it is about",
+        "Who the main characters are",
+        "And explain why you enjoy it"
+      ]
+    },
+    "part3": [
+      "How have TV shows changed over the years?",
+      "Do you think watching TV is a waste of time?"
+    ]
+  },
+  {
+    "id": "test_050",
+    "topic": "Volunteering & Charity",
+    "part1": [
+      "Have you ever done any volunteer work?",
+      "Is volunteering popular in your country?",
+      "Why do you think people choose to volunteer?",
+      "What kind of volunteer work would you be interested in doing?",
+      "Do you donate to charities?",
+      "What are the benefits of volunteering?"
+    ],
+    "part2": {
+      "topic": "Describe a time you helped someone or did volunteer work.",
+      "cues": [
+        "Who you helped",
+        "What you did",
+        "Why you decided to help",
+        "And explain how you felt about the experience"
+      ]
+    },
+    "part3": [
+      "What is the role of non-profit organizations in society?",
+      "Should community service be a mandatory part of high school education?"
+    ]
+  },
+  {
+    "id": "test_051",
+    "topic": "Water",
+    "part1": [
+      "How important is water in your daily life?",
+      "Do you prefer tap water or bottled water?",
+      "Do you enjoy activities related to water, like swimming or boating?",
+      "Is water pollution a problem in your country?",
+      "How can we encourage people to save water?",
+      "What is your favorite body of water (e.g., ocean, lake, river)?"
+    ],
+    "part2": {
+      "topic": "Describe a river, lake, or sea you have visited.",
+      "cues": [
+        "What it is called",
+        "Where it is",
+        "What you did there",
+        "And explain why you liked or disliked it"
+      ]
+    },
+    "part3": [
+      "Why is it important to protect our oceans and rivers?",
+      "What are the main causes of water shortages in some parts of the world?"
+    ]
+  },
+  {
+    "id": "test_052",
+    "topic": "Websites",
+    "part1": [
+      "What is your favorite website?",
+      "How often do you visit it?",
+      "What do you use it for?",
+      "What makes a website easy to use?",
+      "Do you ever read blogs?",
+      "How has the internet changed access to information?"
+    ],
+    "part2": {
+      "topic": "Describe a website you visit often.",
+      "cues": [
+        "What the website is",
+        "What kind of information it provides",
+        "How you found out about it",
+        "And explain why you visit it so often"
+      ]
+    },
+    "part3": [
+      "How can we know if the information on a website is reliable?",
+      "What are the pros and cons of online learning platforms?"
+    ]
+  },
+  {
+    "id": "test_053",
+    "topic": "Weekends",
+    "part1": [
+      "What do you usually do on weekends?",
+      "Do you prefer to have a busy or a relaxing weekend?",
+      "When was your last really enjoyable weekend?",
+      "Do you think the weekend should be longer?",
+      "Do you ever have to work or study on weekends?",
+      "What's a perfect weekend for you?"
+    ],
+    "part2": {
+      "topic": "Describe a recent weekend that you enjoyed.",
+      "cues": [
+        "When it was",
+        "What you did",
+        "Who you were with",
+        "And explain why you enjoyed it"
+      ]
+    },
+    "part3": [
+      "How important is it to have a good work-life balance?",
+      "How do people in your country typically spend their weekends?"
+    ]
+  },
+  {
+    "id": "test_054",
+    "topic": "Wilderness & Nature",
+    "part1": [
+      "Do you enjoy spending time in nature?",
+      "What kind of natural landscapes do you like (mountains, forests, deserts)?",
+      "Have you ever been camping?",
+      "What are some famous natural attractions in your country?",
+      "Is it important for cities to have green spaces like parks?",
+      "What are the benefits of spending time in nature?"
+    ],
+    "part2": {
+      "topic": "Describe a beautiful natural place you have visited.",
+      "cues": [
+        "Where it was",
+        "When you visited it",
+        "What you saw and did there",
+        "And explain why you found it so beautiful"
+      ]
+    },
+    "part3": [
+      "What is the importance of national parks?",
+      "How can we encourage young people to appreciate nature?"
+    ]
+  },
+  {
+    "id": "test_055",
+    "topic": "Writing",
+    "part1": [
+      "Do you enjoy writing?",
+      "What kind of things do you usually write (emails, essays, messages)?",
+      "Do you prefer writing by hand or on a computer?",
+      "Is handwriting still an important skill?",
+      "Have you ever written a poem or a story?",
+      "What are the challenges of writing in a foreign language?"
+    ],
+    "part2": {
+      "topic": "Describe something you wrote that you were proud of.",
+      "cues": [
+        "What you wrote",
+        "Why you wrote it",
+        "Who you wrote it for",
+        "And explain why you were proud of it"
+      ]
+    },
+    "part3": [
+      "Do you think technology has made people's writing skills better or worse?",
+      "What is the importance of creative writing?"
+    ]
+  },
+  {
+    "id": "test_056",
+    "topic": "Youth & Childhood",
+    "part1": [
+      "Did you have a happy childhood?",
+      "What is your favorite memory from your childhood?",
+      "What games did you play as a child?",
+      "Did you have a lot of friends when you were a child?",
+      "How is childhood today different from when you were a child?",
+      "What was your dream job as a child?"
+    ],
+    "part2": {
+      "topic": "Describe a toy that was special to you in your childhood.",
+      "cues": [
+        "What it was",
+        "Who gave it to you",
+        "How you played with it",
+        "And explain why it was special to you"
+      ]
+    },
+    "part3": [
+      "Do you think children have too much pressure on them these days?",
+      "What is the role of parents in a child's development?"
+    ]
+  },
+  {
+    "id": "test_057",
+    "topic": "Ambition",
+    "part1": [
+      "Are you an ambitious person?",
+      "What are your main ambitions in life right now?",
+      "Is it good to be ambitious?",
+      "What ambitions did you have when you were a child?",
+      "Who is the most ambitious person you know?",
+      "What can stop a person from achieving their ambitions?"
+    ],
+    "part2": {
+      "topic": "Describe an ambition you have for the future.",
+      "cues": [
+        "What the ambition is",
+        "Why it is important to you",
+        "What you need to do to achieve it",
+        "And explain how you will feel if you succeed"
+      ]
+    },
+    "part3": [
+      "What ambitions are common among young people in your country?",
+      "Is there a downside to being too ambitious?"
+    ]
+  },
+  {
+    "id": "test_058",
+    "topic": "Cities",
+    "part1": [
+      "Do you live in a city?",
+      "What are the good things about living in a city?",
+      "What are the bad things about living in a city?",
+      "Which city in the world would you most like to visit?",
+      "Do you prefer big cities or small towns?",
+      "How do you think cities will change in the future?"
+    ],
+    "part2": {
+      "topic": "Describe a city you have visited and enjoyed.",
+      "cues": [
+        "Which city it was",
+        "When you went there",
+        "What you did there",
+        "And explain why you enjoyed it"
+      ]
+    },
+    "part3": [
+      "What are the biggest problems facing cities today?",
+      "How can we make cities more environmentally friendly?"
+    ]
+  },
+  {
+    "id": "test_059",
+    "topic": "Colors",
+    "part1": [
+      "What is your favorite color?",
+      "What colors do you dislike?",
+      "Do colors affect your mood?",
+      "What color are the walls of your room?",
+      "Do you think colors have special meanings in your culture?",
+      "What color would you never wear?"
+    ],
+    "part2": {
+      "topic": "Describe a time you saw something with beautiful colors.",
+      "cues": [
+        "What it was",
+        "Where you saw it",
+        "What the colors were",
+        "And explain how you felt when you saw it"
+      ]
+    },
+    "part3": [
+      "How important is color in product design and marketing?",
+      "Are there any differences in color preferences between men and women?"
+    ]
+  },
+  {
+    "id": "test_060",
+    "topic": "Computers",
+    "part1": [
+      "How often do you use a computer?",
+      "What do you use a computer for?",
+      "When did you first start using a computer?",
+      "Do you prefer using a laptop or a desktop computer?",
+      "What are the most important skills for using a computer?",
+      "How have computers changed our lives?"
+    ],
+    "part2": {
+      "topic": "Describe a problem you had with a computer.",
+      "cues": [
+        "What the problem was",
+        "When it happened",
+        "How you tried to solve it",
+        "And explain what the final outcome was"
+      ]
+    },
+    "part3": [
+      "Do you think we are too dependent on computers?",
+      "What is the future of computing?"
+    ]
+  },
+  {
+    "id": "test_061",
+    "topic": "Cooking",
+    "part1": [
+      "Can you cook?",
+      "Who taught you to cook?",
+      "Do you enjoy cooking?",
+      "What is a popular dish from your country?",
+      "Do you prefer cooking for yourself or for others?",
+      "Is it important to learn how to cook?"
+    ],
+    "part2": {
+      "topic": "Describe a time you cooked a meal for someone.",
+      "cues": [
+        "What you cooked",
+        "Who you cooked for",
+        "Why you cooked this meal",
+        "And explain how the person reacted"
+      ]
+    },
+    "part3": [
+      "What are the benefits of home-cooked meals compared to restaurant food?",
+      "How have cooking shows on TV influenced people?"
+    ]
+  },
+  {
+    "id": "test_062",
+    "topic": "Countryside",
+    "part1": [
+      "Do you like spending time in the countryside?",
+      "What do you usually do when you are in the countryside?",
+      "Are there any beautiful countryside areas in your country?",
+      "What are the main differences between living in the city and the countryside?",
+      "Would you prefer to live in the countryside in the future?",
+      "What are the challenges of living in a rural area?"
+    ],
+    "part2": {
+      "topic": "Describe a time you visited the countryside.",
+      "cues": [
+        "Where you went",
+        "When it was",
+        "What you did there",
+        "And explain how you felt about the experience"
+      ]
+    },
+    "part3": [
+      "Why do many young people move from the countryside to cities?",
+      "How can governments support rural communities?"
+    ]
+  },
+  {
+    "id": "test_063",
+    "topic": "Creativity",
+    "part1": [
+      "Are you a creative person?",
+      "In what ways are you creative?",
+      "Is it important to be creative?",
+      "What jobs require creativity?",
+      "Can creativity be learned or is it an innate talent?",
+      "How can people be encouraged to be more creative?"
+    ],
+    "part2": {
+      "topic": "Describe a time you did something creative.",
+      "cues": [
+        "What you did",
+        "When and where you did it",
+        "Why you did it",
+        "And explain how you felt about the result"
+      ]
+    },
+    "part3": [
+      "What is the role of creativity in education?",
+      "How is creativity important in the workplace?"
+    ]
+  },
+  {
+    "id": "test_064",
+    "topic": "Crowds",
+    "part1": [
+      "Do you like being in crowded places?",
+      "What is the most crowded place you have ever been to?",
+      "When do you usually find yourself in a crowd?",
+      "How do you feel when you are in a large crowd?",
+      "What are the dangers of being in a crowd?",
+      "Why do people go to crowded events like concerts or festivals?"
+    ],
+    "part2": {
+      "topic": "Describe a time you were in a large crowd.",
+      "cues": [
+        "Where you were",
+        "What the event was",
+        "Who you were with",
+        "And explain how you felt being in the crowd"
+      ]
+    },
+    "part3": [
+      "How can the safety of people in crowded places be ensured?",
+      "Why do some people enjoy the energy of a crowd while others dislike it?"
+    ]
+  },
+  {
+    "id": "test_065",
+    "topic": "Decisions",
+    "part1": [
+      "Are you good at making decisions?",
+      "What is the most important decision you have ever made?",
+      "Do you prefer to make decisions quickly or after careful thought?",
+      "Who do you usually consult when you have to make a big decision?",
+      "What makes a decision difficult?",
+      "Do you ever regret your decisions?"
+    ],
+    "part2": {
+      "topic": "Describe an important decision you had to make.",
+      "cues": [
+        "What the decision was",
+        "When you had to make it",
+        "What made it difficult",
+        "And explain what the result of your decision was"
+      ]
+    },
+    "part3": [
+      "What are the most important decisions young people face today?",
+      "How can people improve their decision-making skills?"
+    ]
+  },
+  {
+    "id": "test_066",
+    "topic": "Dreams & Goals",
+    "part1": [
+      "What was your dream when you were a child?",
+      "What are your goals for the next five years?",
+      "Do you believe in following your dreams?",
+      "What is the difference between a dream and a goal?",
+      "Is it important to set goals for yourself?",
+      "What can prevent people from achieving their goals?"
+    ],
+    "part2": {
+      "topic": "Describe a goal you have set for yourself.",
+      "cues": [
+        "What the goal is",
+        "Why it is important to you",
+        "What you are doing to achieve it",
+        "And explain how you will feel when you achieve it"
+      ]
+    },
+    "part3": [
+      "Is it more important to have realistic or ambitious goals?",
+      "How can parents help their children set and achieve goals?"
+    ]
+  },
+  {
+    "id": "test_067",
+    "topic": "Entertainment",
+    "part1": [
+      "What do you do for entertainment?",
+      "Do you prefer to be entertained at home or to go out?",
+      "What form of entertainment is most popular in your country?",
+      "How has entertainment changed over the last few decades?",
+      "Do you think entertainment is an important part of life?",
+      "What is your favorite type of live performance?"
+    ],
+    "part2": {
+      "topic": "Describe a live event (like a concert, play, or sports match) you went to.",
+      "cues": [
+        "What the event was",
+        "When and where it was",
+        "Who you went with",
+        "And explain why you enjoyed it"
+      ]
+    },
+    "part3": [
+      "How has the internet changed the entertainment industry?",
+      "Do you think celebrities are paid too much?"
+    ]
+  },
+  {
+    "id": "test_068",
+    "topic": "Failure",
+    "part1": [
+      "Have you ever experienced a significant failure?",
+      "How do you usually react to failure?",
+      "Is it important to experience failure?",
+      "What can people learn from failure?",
+      "Do you think the fear of failure stops people from trying new things?",
+      "How can we encourage a more positive attitude towards failure?"
+    ],
+    "part2": {
+      "topic": "Describe a time you failed at something.",
+      "cues": [
+        "What you were trying to do",
+        "Why you failed",
+        "How you felt about it",
+        "And explain what you learned from the experience"
+      ]
+    },
+    "part3": [
+      "How is failure viewed in your culture?",
+      "Is it more important to avoid failure or to learn from it?"
+    ]
+  },
+  {
+    "id": "test_069",
+    "topic": "Films",
+    "part1": [
+      "Do you enjoy watching films?",
+      "What is your favorite film genre?",
+      "How often do you go to the cinema?",
+      "Who are your favorite actors or directors?",
+      "Do you think film reviews are useful?",
+      "Do you prefer watching films in their original language or dubbed?"
+    ],
+    "part2": {
+      "topic": "Describe a film that made a strong impression on you.",
+      "cues": [
+        "What the film was called",
+        "What it was about",
+        "Why you decided to watch it",
+        "And explain why it made such a strong impression"
+      ]
+    },
+    "part3": [
+      "Do films have the power to change society?",
+      "Why are foreign films less popular than domestic ones in many countries?"
+    ]
+  },
+  {
+    "id": "test_070",
+    "topic": "Gardening",
+    "part1": [
+      "Do you like gardening?",
+      "Have you ever grown your own vegetables or flowers?",
+      "Is gardening a popular hobby in your country?",
+      "What are the benefits of gardening?",
+      "Do you think it's important for cities to have public gardens?",
+      "What kind of plants are easy to grow?"
+    ],
+    "part2": {
+      "topic": "Describe a garden you have visited and liked.",
+      "cues": [
+        "Where the garden was",
+        "What it looked like",
+        "What you did or saw there",
+        "And explain why you liked it"
+      ]
+    },
+    "part3": [
+      "Why do people find gardening relaxing?",
+      "How can we encourage more people, especially in cities, to take up gardening?"
+    ]
+  },
+  {
+    "id": "test_071",
+    "topic": "Geography",
+    "part1": [
+      "Did you study geography at school?",
+      "What aspects of geography do you find most interesting?",
+      "Do you have a good sense of direction?",
+      "Do you enjoy looking at maps?",
+      "What are some of the major geographical features of your country?",
+      "How does geography influence a country's culture and economy?"
+    ],
+    "part2": {
+      "topic": "Describe a geographical feature (like a mountain, river, or desert) that you know.",
+      "cues": [
+        "What it is",
+        "Where it is located",
+        "What is special about it",
+        "And explain what you know about its importance"
+      ]
+    },
+    "part3": [
+      "Why is it important to learn about the geography of other countries?",
+      "How has technology changed the way we interact with and understand geography?"
+    ]
+  },
+  {
+    "id": "test_072",
+    "topic": "Humor & Laughter",
+    "part1": [
+      "What makes you laugh?",
+      "Do you think you have a good sense of humor?",
+      "Who is the funniest person you know?",
+      "Is laughter important in life?",
+      "Do you enjoy watching comedy shows or movies?",
+      "Is humor universal, or does it vary across cultures?"
+    ],
+    "part2": {
+      "topic": "Describe a time when you laughed a lot.",
+      "cues": [
+        "When and where it was",
+        "Who you were with",
+        "What happened that was so funny",
+        "And explain why you found it so amusing"
+      ]
+    },
+    "part3": [
+      "What role does humor play in friendships and relationships?",
+      "Can humor be a useful tool in difficult situations?"
+    ]
+  },
+  {
+    "id": "test_073",
+    "topic": "Inventions",
+    "part1": [
+      "What do you think is the most important invention of all time?",
+      "How has the invention of the internet changed the world?",
+      "What invention could you not live without?",
+      "Are there any inventions you think have been bad for humanity?",
+      "What is an invention that has made your life easier?",
+      "What do you think will be the next big invention?"
+    ],
+    "part2": {
+      "topic": "Describe an invention that has changed the world.",
+      "cues": [
+        "What the invention is",
+        "Who invented it and when",
+        "What it does",
+        "And explain how it has changed the world"
+      ]
+    },
+    "part3": [
+      "How does science fiction influence real-life inventions?",
+      "Are there any negative consequences of technological innovation?"
+    ]
+  },
+  {
+    "id": "test_074",
+    "topic": "Journeys",
+    "part1": [
+      "Do you enjoy long journeys?",
+      "What is the longest journey you have ever made?",
+      "What do you usually do during a long journey?",
+      "Do you prefer traveling by car, train, or plane?",
+      "What is the most beautiful journey you have taken?",
+      "Do you think the journey is as important as the destination?"
+    ],
+    "part2": {
+      "topic": "Describe an unforgettable journey you have made.",
+      "cues": [
+        "Where you went",
+        "How you traveled",
+        "What happened during the journey",
+        "And explain why it was unforgettable"
+      ]
+    },
+    "part3": [
+      "What are the pros and cons of different modes of transport for long journeys?",
+      "How might travel and journeys change in the future?"
+    ]
+  },
+  {
+    "id": "test_075",
+    "topic": "Kindness",
+    "part1": [
+      "What does it mean to be a kind person?",
+      "Do you think you are a kind person?",
+      "Can you give an example of an act of kindness?",
+      "Is kindness something that can be taught?",
+      "Why is kindness important in society?",
+      "Who is the kindest person you know?"
+    ],
+    "part2": {
+      "topic": "Describe a time when someone showed you great kindness.",
+      "cues": [
+        "Who the person was",
+        "When and where it happened",
+        "What they did",
+        "And explain how this act of kindness made you feel"
+      ]
+    },
+    "part3": [
+      "Do you think people are born kind or learn to be kind?",
+      "How can we encourage more acts of kindness in our communities?"
+    ]
+  },
+  {
+    "id": "test_076",
+    "topic": "Knowledge & Information",
+    "part1": [
+      "What is the best way to gain knowledge?",
+      "Do you prefer getting information from books or the internet?",
+      "Is it important to have general knowledge about many subjects?",
+      "What is something you would like to know more about?",
+      "How has the internet changed how we access information?",
+      "What are the dangers of misinformation?"
+    ],
+    "part2": {
+      "topic": "Describe something you learned that you found very interesting.",
+      "cues": [
+        "What you learned",
+        "How you learned it",
+        "Why you were interested in it",
+        "And explain what you did with this knowledge"
+      ]
+    },
+    "part3": [
+      "What is the difference between information and knowledge?",
+      "In the age of the internet, is it still important to memorize facts?"
+    ]
+  },
+  {
+    "id": "test_077",
+    "topic": "Leadership",
+    "part1": [
+      "What makes a good leader?",
+      "Do you think you are a good leader?",
+      "Have you ever been in a leadership position?",
+      "Who is a leader you admire?",
+      "Are leaders born or made?",
+      "What are the biggest challenges leaders face?"
+    ],
+    "part2": {
+      "topic": "Describe a leader you admire.",
+      "cues": [
+        "Who this person is",
+        "How you know about them",
+        "What makes them a good leader",
+        "And explain what you have learned from them"
+      ]
+    },
+    "part3": [
+      "What is the difference between a leader and a manager?",
+      "How has the concept of leadership changed in the 21st century?"
+    ]
+  },
+  {
+    "id": "test_078",
+    "topic": "Leisure",
+    "part1": [
+      "What do you do in your leisure time?",
+      "How important is leisure time to you?",
+      "Do you think you have enough leisure time?",
+      "How do people in your country spend their leisure time?",
+      "Do you prefer active or passive leisure activities?",
+      "Has the way people spend their leisure time changed over the years?"
+    ],
+    "part2": {
+      "topic": "Describe a leisure activity you enjoy.",
+      "cues": [
+        "What the activity is",
+        "How often you do it",
+        "Why you started doing it",
+        "And explain why you enjoy it"
+      ]
+    },
+    "part3": [
+      "What is the impact of technology on leisure activities?",
+      "Do you think leisure is as important as work or study?"
+    ]
+  },
+  {
+    "id": "test_079",
+    "topic": "Luck & Chance",
+    "part1": [
+      "Do you believe in luck?",
+      "Do you consider yourself a lucky person?",
+      "What is the luckiest thing that has ever happened to you?",
+      "Is success a result of hard work or luck?",
+      "Do you have any lucky charms or rituals?",
+      "What is the difference between luck and chance?"
+    ],
+    "part2": {
+      "topic": "Describe a time you were very lucky.",
+      "cues": [
+        "When and where it was",
+        "What happened",
+        "Why you were lucky",
+        "And explain how you felt afterwards"
+      ]
+    },
+    "part3": [
+      "Why do some people seem to be luckier than others?",
+      "Do you think gambling is a harmless form of entertainment?"
+    ]
+  },
+  {
+    "id": "test_080",
+    "topic": "Maps",
+    "part1": [
+      "Do you ever use maps?",
+      "What kind of maps do you use (paper maps, online maps)?",
+      "Are you good at reading maps?",
+      "When was the last time you used a map?",
+      "Do you think it's still necessary to learn how to read a paper map?",
+      "How have online maps like Google Maps changed the way we travel?"
+    ],
+    "part2": {
+      "topic": "Describe a time you used a map.",
+      "cues": [
+        "Where you were going",
+        "Why you needed a map",
+        "Whether the map was easy to use",
+        "And explain what happened in the end"
+      ]
+    },
+    "part3": [
+      "What are the advantages of using online maps over paper maps?",
+      "Besides navigation, what other uses do maps have?"
+    ]
+  },
+  {
+    "id": "test_081",
+    "topic": "Memory",
+    "part1": [
+      "Do you have a good memory?",
+      "What is your earliest memory?",
+      "Are there any things you find difficult to remember?",
+      "What techniques do you use to help you remember things?",
+      "Why do you think some memories are stronger than others?",
+      "Is it important to have a good memory?"
+    ],
+    "part2": {
+      "topic": "Describe a happy memory from your childhood.",
+      "cues": [
+        "What the memory is",
+        "When it happened",
+        "Who was with you",
+        "And explain why it is a happy memory for you"
+      ]
+    },
+    "part3": [
+      "How can people improve their memory?",
+      "Do you think photographs help us to remember the past?"
+    ]
+  },
+  {
+    "id": "test_082",
+    "topic": "Mistakes",
+    "part1": [
+      "Do you think it's okay to make mistakes?",
+      "What is a common mistake people make?",
+      "What can we learn from making mistakes?",
+      "Describe a mistake you have made.",
+      "How do you feel when you realize you've made a mistake?",
+      "Is it better to admit your mistakes or to hide them?"
+    ],
+    "part2": {
+      "topic": "Describe a mistake you once made.",
+      "cues": [
+        "What the mistake was",
+        "When and where it happened",
+        "What the consequences were",
+        "And explain what you learned from it"
+      ]
+    },
+    "part3": [
+      "Why do some people find it difficult to admit their mistakes?",
+      "How can parents teach their children to deal with mistakes in a positive way?"
+    ]
+  },
+  {
+    "id": "test_083",
+    "topic": "Mountains",
+    "part1": [
+      "Do you like mountains?",
+      "Are there mountains in your country?",
+      "Have you ever climbed a mountain?",
+      "What are the benefits of spending time in the mountains?",
+      "What can people do for fun in the mountains?",
+      "Is it dangerous to go hiking in the mountains?"
+    ],
+    "part2": {
+      "topic": "Describe a mountain you have seen or visited.",
+      "cues": [
+        "Where it is",
+        "What it looks like",
+        "What you can do there",
+        "And explain your experience of seeing or visiting it"
+      ]
+    },
+    "part3": [
+      "Why do people feel attracted to climbing high mountains?",
+      "What is the impact of tourism on mountain environments?"
+    ]
+  },
+  {
+    "id": "test_084",
+    "topic": "Names",
+    "part1": [
+      "Does your name have a special meaning?",
+      "Who chose your name for you?",
+      "Do you like your name?",
+      "Is it easy or difficult to change your name in your country?",
+      "What are some common names in your country?",
+      "How are children named in your culture?"
+    ],
+    "part2": {
+      "topic": "Describe how you got your name.",
+      "cues": [
+        "What your name is",
+        "What it means",
+        "Who chose it for you",
+        "And explain whether you like your name or not"
+      ]
+    },
+    "part3": [
+      "Are there any trends in how people name their children nowadays?",
+      "Does a person's name affect their personality or success?"
+    ]
+  },
+  {
+    "id": "test_085",
+    "topic": "Noise",
+    "part1": [
+      "Do you live in a noisy place?",
+      "What kind of noises do you hear in your daily life?",
+      "Do you prefer a quiet or a noisy environment?",
+      "What noises annoy you?",
+      "Are cities becoming noisier?",
+      "What is your favorite sound?"
+    ],
+    "part2": {
+      "topic": "Describe a time when you were in a very noisy place.",
+      "cues": [
+        "Where it was",
+        "Why it was noisy",
+        "What you were doing there",
+        "And explain how you felt about the noise"
+      ]
+    },
+    "part3": [
+      "What are the effects of noise pollution on people's health?",
+      "How can the problem of noise in cities be reduced?"
+    ]
+  },
+  {
+    "id": "test_086",
+    "topic": "Oceans & Seas",
+    "part1": [
+      "Do you like the ocean?",
+      "Have you ever been on a boat in the sea?",
+      "What is your favorite sea creature?",
+      "Is ocean pollution a serious problem?",
+      "What can be done to protect the oceans?",
+      "What activities can people do at the beach?"
+    ],
+    "part2": {
+      "topic": "Describe a time you visited a beach or the sea.",
+      "cues": [
+        "Where you went",
+        "Who you were with",
+        "What you did there",
+        "And explain why you enjoyed the experience"
+      ]
+    },
+    "part3": [
+      "Why is it important to protect the marine environment?",
+      "What are the biggest threats to our oceans today?"
+    ]
+  },
+  {
+    "id": "test_087",
+    "topic": "Old People & Aging",
+    "part1": [
+      "Do you often talk to old people?",
+      "What can you learn from old people?",
+      "What are the good things about getting older?",
+      "What are the challenges of being old?",
+      "How are old people respected in your culture?",
+      "Do you think life is better for old people now than in the past?"
+    ],
+    "part2": {
+      "topic": "Describe an old person you admire.",
+      "cues": [
+        "Who this person is",
+        "How you know them",
+        "What this person is like",
+        "And explain why you admire them"
+      ]
+    },
+    "part3": [
+      "What is the role of the elderly in the family in your country?",
+      "How can society better care for its elderly population?"
+    ]
+  },
+  {
+    "id": "test_088",
+    "topic": "Parks & Public Gardens",
+    "part1": [
+      "How often do you visit parks?",
+      "What do you usually do when you visit a park?",
+      "Are there many parks in your city?",
+      "What are the benefits of having parks in urban areas?",
+      "Do you think parks should be free for everyone?",
+      "What was the last park you visited?"
+    ],
+    "part2": {
+      "topic": "Describe a park or garden you have visited.",
+      "cues": [
+        "Where it is",
+        "What it looks like",
+        "What you can do there",
+        "And explain what you like about it"
+      ]
+    },
+    "part3": [
+      "Why is it important for cities to have green spaces?",
+      "How can we encourage more people to use public parks?"
+    ]
+  },
+  {
+    "id": "test_089",
+    "topic": "Patience",
+    "part1": [
+      "Would you say you are a patient person?",
+      "In which situations is it most difficult to be patient?",
+      "When was the last time you lost your patience?",
+      "Is patience a quality that can be learned?",
+      "Why is patience important in relationships?",
+      "Are people today more or less patient than in the past?"
+    ],
+    "part2": {
+      "topic": "Describe a situation that required you to be patient.",
+      "cues": [
+        "What the situation was",
+        "Why you needed patience",
+        "How long you had to wait",
+        "And explain how you felt during this time"
+      ]
+    },
+    "part3": [
+      "In what professions is patience a particularly important quality?",
+      "Has modern technology made us less patient?"
+    ]
+  },
+  {
+    "id": "test_090",
+    "topic": "Pets",
+    "part1": [
+      "Do you have a pet?",
+      "What are some popular pets in your country?",
+      "Why do people like to have pets?",
+      "What are the responsibilities of a pet owner?",
+      "Did you have a pet as a child?",
+      "What is your favorite animal to have as a pet?"
+    ],
+    "part2": {
+      "topic": "Describe a pet that you or someone you know has.",
+      "cues": [
+        "What kind of animal it is",
+        "What it looks like",
+        "What its personality is like",
+        "And explain what is special about this pet"
+      ]
+    },
+    "part3": [
+      "What are the arguments for and against keeping animals as pets?",
+      "What is the role of animal shelters and rescue organizations?"
+    ]
+  },
+  {
+    "id": "test_091",
+    "topic": "Punctuality",
+    "part1": [
+      "Are you a punctual person?",
+      "Is being on time important in your country?",
+      "What are some common reasons for being late?",
+      "How do you feel when someone is late for an appointment with you?",
+      "What is the best way to avoid being late?",
+      "Do you think it's ever acceptable to be late?"
+    ],
+    "part2": {
+      "topic": "Describe a time you were late for an important event.",
+      "cues": [
+        "What the event was",
+        "Why you were late",
+        "What happened when you arrived",
+        "And explain how you felt about being late"
+      ]
+    },
+    "part3": [
+      "How does punctuality differ across cultures?",
+      "In what situations is being punctual most important?"
+    ]
+  },
+  {
+    "id": "test_092",
+    "topic": "Rain",
+    "part1": [
+      "Do you like rainy days?",
+      "Does it rain a lot in your city?",
+      "What do you usually do on a rainy day?",
+      "How does the rain affect people's mood?",
+      "Have you ever been caught in the rain without an umbrella?",
+      "Do you like the sound and smell of rain?"
+    ],
+    "part2": {
+      "topic": "Describe a time you experienced heavy rain.",
+      "cues": [
+        "When and where it was",
+        "What you were doing at the time",
+        "How the rain affected your plans",
+        "And explain how you felt about the experience"
+      ]
+    },
+    "part3": [
+      "In what ways is rain important for the environment?",
+      "How can cities better manage problems caused by heavy rainfall, like flooding?"
+    ]
+  },
+  {
+    "id": "test_093",
+    "topic": "Restaurants",
+    "part1": [
+      "How often do you eat at restaurants?",
+      "What is your favorite restaurant?",
+      "What kind of food does it serve?",
+      "Do you prefer fast food restaurants or formal restaurants?",
+      "What are the most important factors for you when choosing a restaurant?",
+      "Is eating out expensive in your city?"
+    ],
+    "part2": {
+      "topic": "Describe a restaurant you enjoyed eating at.",
+      "cues": [
+        "Where the restaurant is",
+        "Why you chose to go there",
+        "What you ate",
+        "And explain why you enjoyed the experience"
+      ]
+    },
+    "part3": [
+      "How has the restaurant industry changed in recent years?",
+      "Why do you think online reviews are so important for restaurants today?"
+    ]
+  },
+  {
+    "id": "test_094",
+    "topic": "Rivers and Lakes",
+    "part1": [
+      "Are there any famous rivers or lakes in your country?",
+      "Do you enjoy activities like swimming or boating?",
+      "Is water pollution a problem for the rivers and lakes where you live?",
+      "What are the benefits of living near a body of water?",
+      "Did you learn to swim as a child?",
+      "What is your favorite water sport?"
+    ],
+    "part2": {
+      "topic": "Describe a river or lake you have visited.",
+      "cues": [
+        "Where it is",
+        "What it looks like",
+        "What people can do there",
+        "And explain your personal experience with it"
+      ]
+    },
+    "part3": [
+      "Why is it important to protect our natural water resources?",
+      "How does the presence of a major river or lake affect a city's development?"
+    ]
+  },
+  {
+    "id": "test_095",
+    "topic": "Robots",
+    "part1": [
+      "Are you interested in robots?",
+      "In what ways are robots used today?",
+      "Do you think robots will be common in homes in the future?",
+      "What are the advantages of using robots?",
+      "What are the potential dangers of artificial intelligence?",
+      "Would you like to have a robot to help you with chores?"
+    ],
+    "part2": {
+      "topic": "Describe a robot you have seen in a movie or in real life.",
+      "cues": [
+        "What the robot was",
+        "What it could do",
+        "What its purpose was",
+        "And explain your opinion about this robot"
+      ]
+    },
+    "part3": [
+      "How might robots change the job market in the future?",
+      "Do you think robots could ever have emotions or consciousness?"
+    ]
+  },
+  {
+    "id": "test_096",
+    "topic": "Science",
+    "part1": [
+      "Did you enjoy studying science at school?",
+      "What field of science do you find most interesting?",
+      "Is it important for everyone to have a basic understanding of science?",
+      "Who is a famous scientist from your country or from history?",
+      "How does science affect our daily lives?",
+      "What scientific discovery do you think has been most beneficial for humanity?"
+    ],
+    "part2": {
+      "topic": "Describe a science subject you studied at school.",
+      "cues": [
+        "What the subject was (e.g., biology, physics, chemistry)",
+        "What you learned in this subject",
+        "What you liked or disliked about it",
+        "And explain whether you think it is an important subject"
+      ]
+    },
+    "part3": [
+      "What is the role of government in funding scientific research?",
+      "Should there be any limits on scientific research?"
+    ]
+  },
+  {
+    "id": "test_097",
+    "topic": "Sharing",
+    "part1": [
+      "Do you think you are a good at sharing?",
+      "What kinds of things are easy to share?",
+      "What things are difficult to share?",
+      "Did your parents teach you to share when you were a child?",
+      "Is sharing more common now with the rise of the 'sharing economy'?",
+      "What are the benefits of sharing with others?"
+    ],
+    "part2": {
+      "topic": "Describe a time you shared something with someone.",
+      "cues": [
+        "What you shared",
+        "Who you shared it with",
+        "Why you shared it",
+        "And explain how you felt about the experience"
+      ]
+    },
+    "part3": [
+      "What are the advantages and disadvantages of online sharing platforms like Airbnb or Uber?",
+      "In what ways is sharing important within a family or a community?"
+    ]
+  },
+  {
+    "id": "test_098",
+    "topic": "Shoes",
+    "part1": [
+      "How often do you buy shoes?",
+      "What is your favorite pair of shoes?",
+      "Do you prefer comfortable shoes or fashionable shoes?",
+      "What kind of shoes do you wear for formal occasions?",
+      "Have you ever bought shoes online?",
+      "How much do you typically spend on a pair of shoes?"
+    ],
+    "part2": {
+      "topic": "Describe a pair of shoes you own.",
+      "cues": [
+        "What they look like",
+        "Where you got them",
+        "How often you wear them",
+        "And explain why you like them"
+      ]
+    },
+    "part3": [
+      "Why do some people own many pairs of shoes?",
+      "Is there a connection between the shoes a person wears and their personality?"
+    ]
+  },
+  {
+    "id": "test_099",
+    "topic": "Sky & Stars",
+    "part1": [
+      "Do you often look at the sky?",
+      "What does the sky look like at night where you live?",
+      "Have you ever learned about the stars or constellations?",
+      "Do you prefer the sky during the day or at night?",
+      "What is your favorite thing to see in the sky?",
+      "Can you see many stars from your home?"
+    ],
+    "part2": {
+      "topic": "Describe a time you looked at the sky and found it beautiful.",
+      "cues": [
+        "When and where it was",
+        "Who you were with",
+        "What you saw in the sky",
+        "And explain how you felt"
+      ]
+    },
+    "part3": [
+      "Why has humanity always been fascinated by the stars?",
+      "How does light pollution in cities affect our view of the night sky?"
+    ]
+  },
+  {
+    "id": "test_100",
+    "topic": "Teachers & Teaching",
+    "part1": [
+      "Who was your favorite teacher at school?",
+      "What makes a good teacher?",
+      "Do you think teaching is a difficult job?",
+      "Would you ever want to be a teacher?",
+      "What subjects are most difficult to teach?",
+      "How has the role of a teacher changed with technology?"
+    ],
+    "part2": {
+      "topic": "Describe a teacher who had a positive influence on you.",
+      "cues": [
+        "Who the teacher was and what subject they taught",
+        "What was special about this teacher",
+        "What you learned from them",
+        "And explain why they had such a positive influence"
+      ]
+    },
+    "part3": [
+      "What qualities are most important for a teacher to have?",
+      "How can schools attract and retain good teachers?"
+    ]
+  }
+]
