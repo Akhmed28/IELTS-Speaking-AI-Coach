@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		523E849F2E2762AB002F606D /* TestProgressBar.swift in Sources */ = {isa = PBXBuildFile; fileRef = 523E849E2E2762AA002F606D /* TestProgressBar.swift */; };
 		526040482E1C36D5002646EB /* AudioPlayerService.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526040452E1C36D5002646EB /* AudioPlayerService.swift */; };
 		526040492E1C36D5002646EB /* SafariView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526040462E1C36D5002646EB /* SafariView.swift */; };
 		5260404A2E1C36D5002646EB /* VoiceChoice.swift in Sources */ = {isa = PBXBuildFile; fileRef = 526040472E1C36D5002646EB /* VoiceChoice.swift */; };
@@ -14,6 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		523E849E2E2762AA002F606D /* TestProgressBar.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TestProgressBar.swift; sourceTree = "<group>"; };
 		52603FC22E1C35FC002646EB /* IELTS Coach.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "IELTS Coach.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		526040452E1C36D5002646EB /* AudioPlayerService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioPlayerService.swift; sourceTree = "<group>"; };
 		526040462E1C36D5002646EB /* SafariView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SafariView.swift; sourceTree = "<group>"; };
@@ -159,6 +161,7 @@
 		52603FB92E1C35FB002646EB = {
 			isa = PBXGroup;
 			children = (
+				523E849E2E2762AA002F606D /* TestProgressBar.swift */,
 				52DF3FA62E1D2D2E00423FB4 /* LoginView.swift */,
 				52603FC42E1C35FC002646EB /* aha */,
 				526040682E1C426D002646EB /* Application */,
@@ -261,6 +264,7 @@
 				526040492E1C36D5002646EB /* SafariView.swift in Sources */,
 				52DF3FA72E1D2D3600423FB4 /* LoginView.swift in Sources */,
 				5260404A2E1C36D5002646EB /* VoiceChoice.swift in Sources */,
+				523E849F2E2762AB002F606D /* TestProgressBar.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

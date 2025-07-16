@@ -63,6 +63,8 @@ class SpeakingPracticeViewModel: ObservableObject {
     @Published var isTestComplete: Bool = false
     @Published var isAiTyping: Bool = false
     @Published var reportURL: URL? = nil
+    @Published var currentStep: Int = 0
+    @Published var totalSteps: Int = 0
     private var generatedReportURL: URL? = nil
     
     @Published var conversationId: Int? = nil
@@ -746,6 +748,13 @@ class SpeakingPracticeViewModel: ObservableObject {
         print("🎯 Test started by user!")
         isTestStarted = true
         currentPart = 1
+        
+        if let test = currentTest {
+            
+            totalSteps = test.part1.count + 1 + test.part3.count
+        }
+        currentStep = 0
+        
         timeRemaining = part1Duration
         isTimerActive = true
         if currentConversationID == nil, let context = modelContext {
@@ -877,6 +886,11 @@ class SpeakingPracticeViewModel: ObservableObject {
     private func transitionToPart3() {
         stopTimer()
         currentPart = 3
+        
+        if currentStep < totalSteps {
+            currentStep += 1
+        }
+        
         currentQuestionIndex = 0
         isAwaitingPart2Start = false
         
@@ -1352,6 +1366,11 @@ class SpeakingPracticeViewModel: ObservableObject {
         case 2:
             transitionToPart3()
         case 3:
+            
+            if currentStep < totalSteps {
+                currentStep += 1
+            }
+            
             currentQuestionIndex += 1
             // Ensure bounds checking for Part 3
             if currentQuestionIndex >= 0 && currentQuestionIndex < test.part3.count {
@@ -1382,6 +1401,8 @@ class SpeakingPracticeViewModel: ObservableObject {
             print("🚫 Task cancelled, stopping proceedToNextQuestion")
             return
         }
+        
+        currentStep += 1
         
         currentQuestionIndex += 1
         

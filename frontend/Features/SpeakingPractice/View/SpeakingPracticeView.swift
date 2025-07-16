@@ -27,6 +27,15 @@ struct SpeakingPracticeView: View {
                 .ignoresSafeArea()
                 
                 VStack(spacing: 0) {
+                    
+                    if viewModel.isTestStarted && !viewModel.isTestComplete {
+                        TestProgressBar(
+                            totalSteps: viewModel.totalSteps,
+                            currentStep: viewModel.currentStep
+                        )
+                        .transition(.opacity.combined(with: .move(edge: .top)))
+                    }
+                    
                     // Enhanced conversation feed with modern styling
                     ConversationFeedView(viewModel: viewModel)
                 
@@ -56,7 +65,7 @@ struct SpeakingPracticeView: View {
                             }
                             .padding(.horizontal, DesignSystem.Spacing.md)
                             .sheet(item: $viewModel.reportURL) { url in
-                                ShareSheet(items: [url])
+                                ShareSheet(items: [url]) 
                             }
                         } else if viewModel.isConversationPersisted && viewModel.isTestStarted {
                             // Show input field during test
@@ -92,6 +101,7 @@ struct SpeakingPracticeView: View {
                     .transition(.opacity)
                 }
             }
+            .animation(.spring(), value: viewModel.isTestStarted)
             .onTapGesture {
                 keyboardIsFocused = false
             }
